@@ -1,0 +1,23 @@
+# City/county councils with an open Legistar Web API that are still publishing.
+# client -> jurisdiction name (must match the `payer` name used in ledgers.yaml when the
+# same government appears in both, so approvals and payments land on one payer).
+# Checked Oct 2026. sfgov (last matter 2020), longbeach (2023) and detroit (2017) dropped.
+councils:
+  seattle: Seattle, WA
+  boston: Boston, MA
+  denver: Denver, CO
+  oakland: Oakland, CA
+  sanjose: San Jose, CA
+  mesa: Mesa, AZ
+  fortworthgov: Fort Worth, TX
+  columbus: Columbus, OH
+  milwaukee: Milwaukee, WI
+  stpaul: St. Paul, MN
+  kingcounty: King County, WA
+  cook-county: Cook County, IL
+  sacramento: Sacramento, CA
+  fresno: Fresno, CA
+  nashville: Nashville, TN
+  baltimore: Baltimore, MD
+  pittsburgh: Pittsburgh, PA
+  louisville: Louisville, KY

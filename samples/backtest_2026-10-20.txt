@@ -1,0 +1,31 @@
+
+as of 2026-04-23: 10 act_now, 10 entering
+  EXPANDING    Lexipol                        +0 more governments within 90d     Expanding: Mesquite, TX Emergency Medical Service started paying them on Mar 18, 2026. Los
+  EXPANDING    Intoximeters                   +0 more governments within 90d     Expanding: Ramsey County, MN Sheriff started paying them on Feb 25, 2026. Los Angeles, CA 
+  EXPANDING    ImageTrend                     +0 more governments within 90d     Expanding: State of Delaware OTHER ELECTIVE OFFICES started paying them on Apr 23, 2026. M
+  NEW_PAYER    3SI Security Systems           +1 more governments within 90d     New payer: Ramsey County, MN (Sheriff) first paid them on Apr 15, 2026 ($8,160). New payer
+  NEW_PAYER    Applied Concepts (Stalker Rada +1 more governments within 90d     New payer: Ramsey County, MN (Sheriff) first paid them on Feb 18, 2026 ($274). Paid by 10 
+  NEW_PAYER    RaySecur Inc                   +0 more governments within 90d     New payer: State of Connecticut (Dept. of Correction) first paid them on Feb 4, 2026 ($62,
+  EXPANDING    TimeKeeping Systems            +1 more governments within 90d     Expanding: State of Delaware DEPT OF CORRECTIONS started paying them on Apr 16, 2026. Paid
+  NEW_PAYER    Peregrine Technologies         +0 more governments within 90d     New payer: Mesa, AZ (Police) first paid them on Feb 5, 2026 ($161,850). Paid by 3 departme
+
+as of 2026-05-23: 8 act_now, 1 entering
+  NEW_PAYER    Digitech Computer              +0 more governments within 90d     New payer: Cincinnati, OH (Fire - Response) first paid them on May 1, 2026 ($4,432). Montg
+
+as of 2026-06-22: 11 act_now, 5 entering
+  EXPANDING    Digital Intelligence           +0 more governments within 90d     Expanding: Riverside County, CA Information Technology started paying them on Jun 5, 2026.
+  NEW_PAYER    DNA Labs International         +0 more governments within 90d     New payer: Los Angeles, CA (POLICE) first paid them on Jun 11, 2026 ($4,135). Paid by 5 de
+  NEW_PAYER    Force Science Institute        +0 more governments within 90d     New payer: State of Connecticut (Dept of Emrg Svc & Public Prot) first paid them on Jun 13
+  NEW_PAYER    TRM Labs                       +0 more governments within 90d     New payer: Cook County, IL (State's Attorney) first paid them on Jun 11, 2026 ($24,500). P
+  NEW_PAYER    Veoci                          +0 more governments within 90d     New payer: Mesa, AZ (Mesa Fire & Medical) first paid them on Jun 16, 2026 ($32,715). Paid 
+
+as of 2026-07-22: 9 act_now, 0 entering
+
+as of 2026-08-21: 8 act_now, 2 entering
+  EXPANDING    LeadsOnline                    (window still open)                Expanding: Mesa, AZ Public Safety Support started paying them on Aug 12, 2026. Los Angeles
+  EXPANDING    Metrasens Inc                  (window still open)                Expanding: State of Delaware SVS FR CHILDREN,YOUTH,FAMILIES started paying them on Aug 10,
+
+as of 2026-09-20: 4 act_now, 1 entering
+  EXPANDING    3DI Inc                        (window still open)                Expanding: Los Angeles, CA TRANSPORTATION started paying them on Sep 4, 2026. Los Angeles,
+
+as of 2026-10-20: 2 act_now, 0 entering

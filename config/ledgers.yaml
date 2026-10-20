@@ -1,0 +1,260 @@
+# Government payment ledgers, unified into one payment schema.
+#
+# Each entry maps one government's published vendor-payment data (Socrata SODA API)
+# onto the canonical fields:
+#   vendor        payee name as the government records it
+#   paid          date the payment left the government
+#   amount        dollars
+#   unit          paying department (normalized later by names.canonical_unit)
+#   invoice_date  only where the column really is an invoice date (see below)
+#   invoice_date_meaning  issued | received   (whose clock starts the lag)
+#   due_date, invoice_id, description   where they exist
+#
+# invoice_date is only mapped where an empirical test passed: paid - invoice_date
+# across the 5,000 most recent payments has a realistic spread and ~0% negatives.
+# `python -m monk_signals ledgers --verify` re-runs that test against live data.
+# Columns that are *named* invoice date but failed it are documented and left unmapped.
+
+ledgers:
+  - id: los_angeles
+    payer: Los Angeles, CA
+    level: city
+    domain: controllerdata.lacity.org
+    datasets: [pggv-e4fn]
+    vendor: vendor_name
+    paid: transaction_date
+    amount: dollar_amount
+    unit: department_name
+    invoice_date: inv_date
+    invoice_date_meaning: received      # column description: "Invoice Receipt Date"
+    due_date: invoice_due_date
+    invoice_id: inv_num
+    description: description
+
+  - id: fulton_county
+    payer: Fulton County, GA
+    level: county
+    domain: sharefulton.fultoncountyga.gov
+    datasets: [kp4p-scak]
+    vendor: vendor_legal_name
+    paid: disb_date
+    amount: amount
+    unit: department_name
+    invoice_date: vendor_invoice_date
+    invoice_date_meaning: received      # "The date the invoice was received from the vendor"
+    invoice_id: vendor_invoice_no
+    description: object_name
+
+  - id: baton_rouge
+    payer: Baton Rouge / East Baton Rouge Parish, LA
+    level: city
+    domain: data.brla.gov
+    datasets: [7qhq-wwsg]
+    vendor: vendor_name
+    paid: check_date
+    amount: line_item_amount
+    unit: department
+    invoice_date: invoice_date
+    invoice_date_meaning: issued        # "The date the invoice was issued to the City-Parish"
+    invoice_id: invoice_number
+    description: line_item_desc
+
+  - id: montgomery_county_md
+    payer: Montgomery County, MD
+    level: county
+    domain: data.montgomerycountymd.gov
+    datasets: [vpf9-6irq]
+    vendor: vendor
+    paid: payment_date
+    amount: amount
+    unit: department
+    invoice_date: inv_date
+    invoice_date_meaning: issued        # "the date listed in ERP as the invoice date"
+    invoice_id: invoice_id
+    description: description
+
+  - id: moreno_valley
+    payer: Moreno Valley, CA
+    level: city
+    domain: moreno-valley.data.socrata.com
+    datasets: [qpw5-2938]
+    vendor: vendor
+    paid: payment_date
+    amount: amount
+    unit: department
+    invoice_date: invoice_date
+    invoice_date_meaning: issued
+    invoice_id: invoice_id
+    description: description
+
+  # ---- payment date only: payer breadth, departments, recency ----
+
+  - id: dallas
+    payer: Dallas, TX
+    level: city
+    domain: www.dallasopendata.com
+    datasets: [x5ih-idh7]               # holds the current fiscal year only
+    vendor: vendor
+    paid: rundate
+    amount: chksubtot
+    unit: department
+    description: commoditydscr
+    notes: invoicedate / invoicenumber columns are documented as "NOT APPLICABLE"
+
+  - id: kansas_city
+    payer: Kansas City, MO
+    level: city
+    domain: data.kcmo.org
+    datasets: [w3zd-mhbv, u8bc-eqh2, 39kh-2k2z]   # calendar 2026, 2025, 2024
+    vendor: vendor_name
+    paid: payment_date
+    amount: sum_amount                  # payment_amount is the whole check; sum_amount is this voucher
+    unit: deptid_descr
+    description: account_descr
+
+  - id: cincinnati
+    payer: Cincinnati, OH
+    level: city
+    domain: data.cincinnati-oh.gov
+    datasets: [qrj9-83t8]
+    vendor: vendor_name
+    paid: record_date
+    amount: amount
+    unit: dept_desc
+    description: exp_acct_cat_desc
+
+  - id: mesa
+    payer: Mesa, AZ
+    level: city
+    domain: citydata.mesaaz.gov
+    datasets: [j7s9-qiuq]
+    vendor: vendor_name                 # stored without spaces ("PeregrineTechnologiesInc")
+    paid: payment_date
+    amount: amount
+    unit: department_name
+    description: commodity_description
+
+  - id: atlanta
+    payer: Atlanta, GA
+    level: city
+    domain: atlanta.data.socrata.com
+    datasets: [jmke-icfi]
+    vendor: vendor_name
+    paid: check_date
+    amount: amount
+    unit: department
+    description: invoice_description
+
+  - id: riverside_county
+    payer: Riverside County, CA
+    level: county
+    domain: data.countyofriverside.us
+    datasets: [swwh-4ka9]
+    vendor: vendor_name
+    paid: date
+    amount: amount
+    unit: department
+    invoice_id: invoice_id
+    description: description
+
+  - id: ramsey_county
+    payer: Ramsey County, MN
+    level: county
+    domain: data.ramseycountymn.gov
+    datasets: [4htu-nawa]
+    vendor: supplier_name
+    paid: payment_date
+    amount: amount
+    unit: department_name
+    invoice_id: invoice_id
+    description: description
+
+  - id: providence
+    payer: Providence, RI
+    level: city
+    domain: data.providenceri.gov
+    datasets: [u4ks-kiwa]
+    vendor: vendor_name
+    paid: date
+    amount: amount
+    unit: department
+    invoice_id: invoice_id
+    description: description
+
+  - id: college_station
+    payer: College Station, TX
+    level: city
+    domain: data.cstx.gov
+    datasets: [y2v6-fvti]
+    vendor: vendor_name
+    paid: payment_date
+    amount: payment_amount
+    unit: org_description
+    invoice_id: invoice_number
+    description: description
+
+  - id: mesquite
+    payer: Mesquite, TX
+    level: city
+    domain: opendata.cityofmesquite.com
+    datasets: [6tva-azs5]
+    vendor: payee
+    paid: check_date
+    amount: amount
+    unit: org_desc
+    invoice_id: inv_number
+    description: object_desc
+
+  - id: corona
+    payer: Corona, CA
+    level: city
+    domain: corstat.coronaca.gov
+    datasets: [mdmf-aswt]
+    vendor: vendor
+    paid: payment_date
+    amount: amount
+    unit: department
+    invoice_id: invoice_id
+    description: description
+
+  - id: cook_county
+    payer: Cook County, IL
+    level: county
+    domain: datacatalog.cookcountyil.gov
+    datasets: [exta-e29u]
+    vendor: vendor_name
+    paid: check_date
+    amount: check_amount
+    unit: office_name
+    invoice_id: invoice_num
+    description: item_description
+
+  - id: connecticut
+    payer: State of Connecticut
+    level: state
+    domain: data.ct.gov
+    datasets: [ajdm-rvz7]
+    vendor: vendor
+    paid: payment_date
+    amount: amount
+    unit: program                       # agency name lives in `program`; `department` holds the SID description
+    invoice_id: invoice_id
+    description: expense_category
+    notes: invoice_date is the accounting date (equals payment_date in 100% of tested rows), so unmapped
+
+  - id: delaware
+    payer: State of Delaware
+    level: state
+    domain: data.delaware.gov
+    datasets: [7bip-nb4g]
+    vendor: vendor
+    paid: check_date
+    amount: amount
+    unit: department
+    description: account_descr
+
+# Evaluated and left out:
+#   Chicago s4vu-giwb        check_date is free text mixing "01/02/2024" and "2024" (annual roll-ups)
+#   Denver (data.colorado.gov wnau-xrqi)  a Jan-Mar 2025 extract, not maintained
+#   Pittsburgh t8t2-4b5n     general ledger incl. budget entries, not a payment register
+#   Pierce County iwu2-biyj  general ledger journal lines

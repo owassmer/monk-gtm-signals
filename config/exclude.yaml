@@ -1,0 +1,43 @@
+# Vendors never queued. Matched on whole words against the vendor name.
+exclude:
+  monk_customer:          # already Monk customers
+    - Othram
+    - Subject
+    - Pump
+    - Rubie
+    - Elate
+    - Profound
+    - ResiDesk
+    - ElevenLabs
+  out_of_scope_size:      # large AR departments already
+    - Axon Enterprise
+    - Motorola Solutions
+    - Tyler Technologies
+    - Hexagon
+    - CentralSquare
+    - Verizon
+    - AT&T
+    - Microsoft
+    - Oracle
+    - IBM
+    - Dell
+    - Lockheed Martin
+    - Leidos
+    - Booz Allen
+    - General Dynamics
+  brand_risk:
+    - Flock Safety
+    - Flock Group
+    - Clearview AI
+  reseller:               # the vendor's customers pay these, not the vendor
+    - Carahsoft
+    - CDW
+    - SHI International
+    - Insight Public Sector
+    - Sirius Computer
+    - ePlus
+    - Presidio
+  not_a_fit:              # reviewed Oct 20, 2026
+    - NMS Labs            # large PE-owned lab with an established finance team
+    - Collaborative Testing Services   # mature, not growth-stage
+    - Meridian Rapid Defense Group     # vehicles and trailers
