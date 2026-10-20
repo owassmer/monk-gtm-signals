@@ -1,90 +1,103 @@
 # monk-gtm-signals
 
-Finds companies whose accounts receivable is getting harder, using what governments publish
-about the invoices they pay.
+This project finds companies that sell to police, fire, 911, courts, and crime labs, and flags the
+ones whose government customers pay slowly or are adding new paying departments. It works from
+public government payment records and sends flagged accounts to Clay and HubSpot.
 
-## Thesis
+## Background
 
-Monk's customers share a shape: a fast-growing seller with a lean finance team, billing many
-payers that each have their own rules. Othram bills law-enforcement agencies per case; Subject
-bills hundreds of school districts. Vendors to police, sheriffs, courts, 911 and crime labs have
-that shape at full strength, and **their customers publish their payables**: cities, counties and
-states release every vendor payment, many with the invoice date next to the payment date.
+Many cities, counties, and states publish every vendor payment they make, often with the invoice
+date. With both dates, you can measure how long each department takes to pay a given vendor. For
+example, the Port of Los Angeles pays Lexipol a median of 93 days after receiving an invoice, and
+LA Recreation and Parks paid the same vendor within 9 days.
 
-So the AR problem is visible from outside. From Checkbook LA: the Port of LA's Harbor department
-pays Lexipol a median 93 days after receiving its invoices, while LA Recreation and Parks paid the
-same vendor in 9. Same city, different department, different rules. That is what Monk automates.
+Vendors to public-safety agencies bill many separate departments, each with its own purchase
+orders, approvers, and payment timing. Several Monk customers, such as Othram and Subject, bill
+public agencies the same way.
 
 ## How it works
 
-```
-19 government payment ledgers ─┐
-USAspending federal awards ────┴─> event store (SQLite) ─> point-in-time scoring ─> Clay ─> HubSpot
-                                   two clocks per record      reason codes, tiers     enrich,   dispositions
-                                   (happened / first seen)                            buyer, AI ─> cohort report
-```
+1. The pipeline reads payment ledgers from 19 governments and federal contract awards from
+   USAspending. `config/ledgers.yaml` maps each government's columns to one payment schema.
+2. A Claude agent, run through the local Claude Code CLI, classifies each paying department,
+   screens the vendors that public-safety departments pay, and checks each candidate on the web for
+   ownership, size, and whether agencies pay it directly. Each decision is cached in the database
+   with its reasoning, so it's made once.
+3. Every payment and award is stored as an event in a SQLite database. Each event keeps the date it
+   happened and the date the pipeline first saw it.
+4. The pipeline scores each vendor from its events and assigns signals and a tier.
+5. New and changed accounts are sent to Clay, which enriches them and writes them to HubSpot after
+   a person approves them.
 
-**Code gathers facts; an agent decides meaning.** Judgments run through the local Claude Code CLI
-(`claude -p`, structured JSON output, web search where needed), are cached in the database with
-their reasoning, and are made once:
+### Signals
 
-| Judgment | Why it isn't a regex |
+| Signal | Meaning |
 |---|---|
-| What function each of ~2,900 departments across 19 governments is | "MOHSEP", "HARBOR", "Genl Fd Police Administration", "Court Finance" |
-| Which of ~11,000 payees of public-safety departments are targets, and which spellings are one company | Discovery has to find vendors nobody listed in advance |
-| Web verification of each target: domain, ownership, size, whether agencies pay it directly | Resellers, PE roll-ups and subsidiaries look like vendors in a ledger |
+| `SLOW_PAYER` | A department takes a median of 45 or more days to pay after the invoice date, across at least 3 invoices. |
+| `EXPANDING` | A new department inside an existing government customer started paying in the last 90 days. |
+| `NEW_PAYER` | A government paid the vendor for the first time in the last 90 days, with two years of history showing no earlier payments. |
+| `PAYER_SPRAWL` | Three or more governments, or six or more departments, paid the vendor in the last 24 months. |
 
-**Schemas are unified and checked against the data.** `config/ledgers.yaml` maps each
-government's columns onto one payment schema. A column is used as an invoice date only if
-`paid - invoice_date` behaves like one on live data (`python -m monk_signals ledgers --verify`).
-Connecticut's `invoice_date` equals the payment date in every row and Pittsburgh's checkbook is a
-general ledger, so neither is used for payment lag. Masked payee names (College Station publishes
-"Lexip...#5401") are never matched to a company.
+An account is `act_now` when it has `NEW_PAYER` or `EXPANDING` together with `SLOW_PAYER` or
+`PAYER_SPRAWL`. It's `watch` when it has any one of them. The first signal on an account becomes
+its `source_signal` in HubSpot.
 
-**Reason codes, not a black-box score.**
+Because events keep their real dates, `queue --as-of DATE` rebuilds the queue from records dated on
+or before that day, and `backtest` shows what the queue would have flagged each month.
 
-| Code | Meaning |
+## Data quality checks
+
+- A column is used as an invoice date only if the gap between invoice and payment looks like a real
+  payment delay in the live data. Run `python -m monk_signals ledgers --verify` to repeat the check.
+  Connecticut's invoice date column matches the payment date in every row, and Pittsburgh publishes
+  a general ledger, so neither is used to measure payment delay.
+- Payee names that a government masks, such as College Station's `Lexip...#5401`, are never matched
+  to a company.
+- Vendors in `config/exclude.yaml` are never flagged. The list covers Monk customers, large
+  incumbents, resellers, and brand-risk companies.
+
+## Set up
+
+1. Create a virtual environment and install the dependencies:
+
+   ```bash
+   python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+   ```
+
+2. Copy `.env.example` to `.env` and fill in the HubSpot service key and the two Clay webhook URLs
+   and tokens.
+3. Sign in to the Claude Code CLI (`claude`). The agent steps use your existing login.
+
+## Commands
+
+Run each command as `python -m monk_signals COMMAND`.
+
+| Command | What it does |
 |---|---|
-| `NEW_PAYER` | A government paid or awarded the vendor for the first time in 90 days, with 24 months of visible history showing no prior relationship |
-| `EXPANDING` | A new department inside an existing government customer started paying |
-| `SLOW_PAYER` | A department takes a median 45+ days from invoice to payment (3+ invoices) |
-| `PAYER_SPRAWL` | Paid by 3+ governments or 6+ departments in 24 months |
+| `discover` | Classifies departments, screens the vendors that public-safety departments pay, and saves targets. |
+| `verify` | Checks each target on the web for domain, ownership, size, and sales channel. |
+| `collect` | Pulls invoice-level payments and federal awards for every target into `signals.db`. |
+| `queue` | Scores every target and writes `out/queue.csv`. Add `--as-of DATE` for a past date. |
+| `backtest` | Prints the queue for each of the last 6 months and what happened next. |
+| `push-clay` | Sends new and changed accounts to Clay. Add `--dry-run` to preview. |
+| `hubspot-setup` | Creates or updates the "Monk signals" company properties in HubSpot. |
+| `hubspot-report` | Groups HubSpot outcome codes by signal and week flagged, and writes `out/cohorts.csv`. |
+| `run` | Runs `collect`, `queue`, and `push-clay`. Use this for a daily job. |
 
-`act_now` = a trigger (new payer / expanding) plus pain (slow payer / sprawl); `watch` = either.
-The leading reason becomes HubSpot `source_signal`, the key the feedback loop learns on.
+## Clay and HubSpot
 
-**Point in time.** Every record keeps its real-world date and the date this system first saw it.
-`queue --as-of 2026-06-01` rebuilds the queue from records dated on or before then; `backtest`
-shows the queue a rep would have received each month and what the public record showed next.
-(A replay assumes a record was available on its event date; ledgers post with a lag of days to
-weeks, so live triggers arrive slightly later than the replay shows.)
+Clay webhook tables only add rows, so the push uses two tables. New accounts go to the Companies
+table. Later changes go to the Signal Feed table, and Companies reads the latest version with a
+lookup on the company name. Only accounts whose signal changed are sent, so enrichment spend follows
+changes instead of list size.
 
-## Run
+In Clay, each account gets company data, a finance contact and email, an AR hypothesis, and an
+opening line. A person approves each account. Clay then looks the company up in HubSpot by domain,
+creates it if it doesn't exist, and updates it on later changes.
 
-```bash
-python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
-cp .env.example .env
-python -m monk_signals discover        # departments -> public-safety payees -> agent screen -> targets
-python -m monk_signals verify          # agent web research per target
-python -m monk_signals collect         # invoice-level payments + federal awards -> signals.db
-python -m monk_signals queue           # -> out/queue.csv
-python -m monk_signals backtest        # monthly queues for the last 6 months
-python -m monk_signals hubspot-setup   # "Monk signals" property group on companies
-python -m monk_signals push-clay       # new accounts -> Companies; changes -> Signal Feed
-python -m monk_signals hubspot-report  # weekly cohorts by source_signal -> out/cohorts.csv
-python -m monk_signals run             # daily: collect + queue + push
-```
+In HubSpot, reps set an outcome code on each company they work. `hubspot-report` groups those
+outcomes by signal so you can see which signals lead to real conversations.
 
-## Division of labor
+## Sample output
 
-| System | Owns |
-|---|---|
-| This repo | Public records at scale, event history, agent judgments, scoring, backtests, CRM schema, cohort report |
-| Clay | Firmographics, finance research (Claygent), finance buyer, email waterfall, AR hypothesis and first line, human approval, HubSpot create/update |
-| HubSpot | System of record: signal properties, contacts, dispositions |
-
-Clay webhook tables only insert rows, so new accounts land in **Companies** and every later change
-lands in **Signal Feed**; Companies reads the latest signal back with a Lookup. Only accounts whose
-signal changed are sent, so enrichment spend tracks change, not list size.
-
-`samples/` holds real output from Oct 20, 2026.
+`samples/` contains real output from October 20, 2026.
