@@ -106,7 +106,8 @@ def score_vendor(evs, as_of, coverage):
         rec = "receipt" if slowest["meaning"] == "received" else "invoice date"
         s = f"{slowest['jurisdiction']} {slowest['unit']} pays them a median {slowest['median']:.0f} days after {rec} ({slowest['n']} invoices)"
         if fastest and fastest is not slowest and fastest["median"] * 2 <= slowest["median"]:
-            s += f", vs {fastest['median']:.0f} days at {fastest['unit']}"
+            where = fastest["unit"] if fastest["jurisdiction"] == slowest["jurisdiction"] else f"{fastest['jurisdiction']} {fastest['unit']}"
+            s += f", vs {fastest['median']:.0f} days at {where}"
         clauses.append(s)
         urls.append(slowest["url"])
     if len(govs) >= 3 or len(units) >= 6:
