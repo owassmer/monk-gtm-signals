@@ -39,9 +39,8 @@ PROPERTIES = [
     ("channel_check", "Channel / AR stack check", "string", "textarea", None, "Sells direct or via reseller; AR tooling seen."),
     ("signal_first_line", "Outreach first line", "string", "textarea", None, "Opening sentence anchored on the public record."),
     # set by reps; read back by `hubspot-report`
-    ("hypothesis_status", "Hypothesis status", "enumeration", "select", ["untested", "confirmed", "rejected"], ""),
     ("disposition", "Signal disposition", "enumeration", "select", DISPOSITIONS,
-     "Outcome code. Read weekly by signal cohort."),
+     "What happened when a rep worked this account. Read weekly by source_signal in hubspot-report."),
 ]
 
 
@@ -77,7 +76,7 @@ def report():
     """Weekly cohorts by source_signal, read like loan vintages: each cohort's early-stage
     rates at its current age. Early stages resolve in weeks; revenue later confirms or overrules."""
     h = _h()
-    props = ["name", "domain", "source_signal", "signal_first_flagged", "disposition", "hypothesis_status", "createdate"]
+    props = ["name", "domain", "source_signal", "signal_first_flagged", "disposition", "createdate"]
     rows, after = [], None
     while True:
         body = {"filterGroups": [{"filters": [{"propertyName": "source_signal", "operator": "HAS_PROPERTY"}]}],
@@ -98,12 +97,12 @@ def report():
         d = dt.date.fromisoformat(flagged)
         week = (d - dt.timedelta(days=d.weekday())).isoformat()
         c = cohorts[(week, p.get("source_signal"))]
-        disp, status = p.get("disposition") or "", p.get("hypothesis_status") or ""
+        disp = p.get("disposition") or ""
         c["accounts"] += 1
         c["age_weeks"] = (today - d).days // 7
         c["worked"] += bool(disp)
         c["reached_owner"] += bool(disp) and disp != "wrong_person"
-        c["problem_confirmed"] += disp in ("problem_confirmed", "next_step") or status == "confirmed"
+        c["problem_confirmed"] += disp in ("problem_confirmed", "next_step")
         c["next_step"] += disp == "next_step"
         c["signal_misfire"] += disp in ("no_problem", "reseller_billed")
     cols = ["cohort_week", "source_signal", "age_weeks", "accounts", "worked", "reached_owner",
