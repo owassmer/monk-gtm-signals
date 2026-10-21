@@ -22,7 +22,7 @@ NOT a target: public companies and large incumbents (Axon, Motorola Solutions, T
 Verizon, Microsoft...), PE roll-ups with large finance teams, resellers and distributors
 (Carahsoft, CDW, SHI...), utilities and telecom carriers, construction and facilities, vehicle and
 fuel suppliers, uniforms and commodity supplies, local small businesses, individuals, nonprofits,
-universities, hospitals, and other government bodies. Also never a target: Flock Safety."""
+universities, hospitals, and other government bodies."""
 
 
 def classify_departments(con, items):
@@ -73,24 +73,6 @@ def classify_payees(con, items):
         return "Screen these payees.\n" + "\n".join(json.dumps(b) for b in batch)
     return llm.judge_many(con, "payee_screen", items, build, PAYEE_SCHEMA, system, batch=70, workers=6)
 
-
-def read_council_matters(con, items):
-    """items: [{id, company, government, title}] -> {id: {is_party, kind, amount, summary}}"""
-    schema = {"type": "object", "required": ["results"], "properties": {"results": {"type": "array", "items": {
-        "type": "object", "required": ["id", "is_party", "kind", "summary"],
-        "properties": {"id": {"type": "string"},
-                       "is_party": {"type": "boolean", "description": "Company is the contracting vendor in this item"},
-                       "kind": {"type": "string", "enum": ["new_contract", "renewal_or_amendment", "purchase",
-                                                           "termination_or_opposition", "grant_or_funding", "not_a_contract"]},
-                       "amount": {"type": "number", "description": "Contract dollars if stated, else 0"},
-                       "summary": {"type": "string", "description": "Under 25 words, who buys what from whom"}}}}}}
-    system = ("You read city and county council agenda items and decide whether a named company is the "
-              "vendor in a contract action, and what kind of action it is. A different company with a "
-              "similar name, or the company merely mentioned, means is_party=false.")
-
-    def build(batch):
-        return "Read each agenda item.\n" + "\n".join(json.dumps(b) for b in batch)
-    return llm.judge_many(con, "council_matter", items, build, schema, system, batch=40, workers=6)
 
 
 VERIFY_SCHEMA = {"type": "object", "required": ["results"], "properties": {"results": {"type": "array", "items": {

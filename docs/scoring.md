@@ -42,11 +42,6 @@ more.
 
 Three or more governments, or six or more departments, had payer events in the last 24 months.
 
-### CONTRACT_RISK
-
-A council voted to end or oppose a contract in the last 24 months. Council records aren't collected
-at the moment, so this signal doesn't appear.
-
 ## Tiers
 
 | Tier | Rule |

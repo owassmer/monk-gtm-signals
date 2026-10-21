@@ -9,7 +9,6 @@ Reason codes (the unit the feedback loop learns on; becomes HubSpot `source_sign
   EXPANDING     a new department inside an existing government paying customer, same test
   SLOW_PAYER    a department takes a median 45+ days from invoice to payment (3+ invoices)
   PAYER_SPRAWL  paid by 3+ governments or 6+ departments in 24 months
-  CONTRACT_RISK a council voted to end or oppose a contract (shown, never a trigger)
 Tier: act_now = trigger (NEW_PAYER | EXPANDING) and pain (SLOW_PAYER | PAYER_SPRAWL);
       watch = either; skip = neither.
 """
@@ -73,7 +72,6 @@ def score_vendor(evs, as_of, coverage):
     all_lags = [l for xs in by_unit.values() for l, _ in xs]
     slowest = max(lag_rows, key=lambda r: r["median"]) if lag_rows else None
     fastest = min(lag_rows, key=lambda r: r["median"]) if lag_rows else None
-    terminations = [e for e in evs if e["kind"] == "termination" and to_date(e["event_date"]) >= w24]
 
     reasons = []
     if new_j:
@@ -84,8 +82,6 @@ def score_vendor(evs, as_of, coverage):
         reasons.append("SLOW_PAYER")
     if len(govs) >= 3 or len(units) >= 6:
         reasons.append("PAYER_SPRAWL")
-    if terminations:
-        reasons.append("CONTRACT_RISK")
     trig = [r for r in TRIGGERS if r in reasons]
     pain = [r for r in PAINS if r in reasons]
     tier = "act_now" if trig and pain else ("watch" if trig or pain else "skip")
@@ -113,9 +109,6 @@ def score_vendor(evs, as_of, coverage):
     if len(govs) >= 3 or len(units) >= 6:
         g = f"{len(govs)} governments" if len(govs) != 1 else "1 government"
         clauses.append(f"Paid by {len(units)} departments across {g} in 24 months")
-    if terminations:
-        clauses.append(f"Contract risk: {terminations[0]['title'][:120]}")
-        urls.append(terminations[0]["url"])
 
     last = max(to_date(e["event_date"]) for e in payer_evs) if payer_evs else None
     return {

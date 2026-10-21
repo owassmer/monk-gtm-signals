@@ -33,7 +33,7 @@ def vendor_key(s):
 
 
 def matches(text, name):
-    """Whole-word sequence match ('Flock' does not match 'SELFLOCK SCREW PRODUCTS')."""
+    """Whole-word sequence match ('Acme' does not match 'PACMEN SUPPLY')."""
     a, t = core_tokens(name), tokens(text)
     n = len(a)
     return bool(a) and any(t[i:i + n] == a for i in range(len(t) - n + 1))

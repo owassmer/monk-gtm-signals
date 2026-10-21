@@ -1,4 +1,5 @@
-# Vendors never queued. Matched on whole words against the vendor name.
+# Vendors that are never flagged. Names are matched as whole words against every payee spelling.
+# Add private exclusions to config/exclude.local.yaml (same format, not committed).
 exclude:
   monk_customer:          # already Monk customers
     - Othram
@@ -9,7 +10,7 @@ exclude:
     - Profound
     - ResiDesk
     - ElevenLabs
-  out_of_scope_size:      # large AR departments already
+  large_incumbent:        # established finance and AR teams
     - Axon Enterprise
     - Motorola Solutions
     - Tyler Technologies
@@ -25,11 +26,7 @@ exclude:
     - Leidos
     - Booz Allen
     - General Dynamics
-  brand_risk:
-    - Flock Safety
-    - Flock Group
-    - Clearview AI
-  reseller:               # the vendor's customers pay these, not the vendor
+  reseller:               # agencies pay these instead of the vendor
     - Carahsoft
     - CDW
     - SHI International
@@ -37,7 +34,3 @@ exclude:
     - Sirius Computer
     - ePlus
     - Presidio
-  not_a_fit:              # reviewed Oct 20, 2026
-    - NMS Labs            # large PE-owned lab with an established finance team
-    - Collaborative Testing Services   # mature, not growth-stage
-    - Meridian Rapid Defense Group     # vehicles and trailers

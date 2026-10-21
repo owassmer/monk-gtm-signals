@@ -72,5 +72,7 @@ only screens departments and payees it hasn't seen before.
 
 ## Excluding a company
 
-Add the name to `config/exclude.yaml` under the matching reason, and run `queue` and `push-clay`.
-If the company was already in Clay, it receives a `removed` record in Signal Feed.
+Add the name to `config/exclude.yaml` under a reason, and run `queue` and `push-clay`. For
+exclusions you don't want in the repository, use `config/exclude.local.yaml` with the same format.
+It's read automatically and isn't committed. If the company was already in Clay, it receives a
+`removed` record in Signal Feed.

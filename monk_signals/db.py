@@ -15,8 +15,8 @@ SCHEMA = """
 CREATE TABLE IF NOT EXISTS events (
   event_id TEXT PRIMARY KEY,
   vendor TEXT NOT NULL,          -- canonical company name from vendors.csv
-  kind TEXT NOT NULL,            -- payment | approval | renewal | termination | award | posting
-  source TEXT NOT NULL,          -- ledger:<id> | legistar:<client> | usaspending | ats:<provider>
+  kind TEXT NOT NULL,            -- payment | award | approval | renewal
+  source TEXT NOT NULL,          -- ledger:<id> | usaspending
   jurisdiction TEXT,             -- the paying government
   unit TEXT,                     -- department as published
   unit_class TEXT,               -- department normalized to a function

@@ -23,7 +23,7 @@ All three stages write to `signals.db`, a SQLite file in the repository root.
    count, and total. Spellings that differ only in case, punctuation, or legal suffix are grouped
    together.
 4. It drops payees paid less than $10,000 in total, payees with no payment in the last 18 months,
-   and payees on the exclude list in `config/exclude.yaml`.
+   and payees on the exclude list. See [Operations](operations.md#excluding-a-company).
 5. The agent screens each remaining payee against Monk's ideal customer profile and returns a
    company name, whether it's a target, a category, a domain if known, a confidence level, and a
    reason.
@@ -45,9 +45,7 @@ the agent returns:
 | `sells_direct` | `direct`, `mixed`, `reseller`, or `unknown` |
 | `is_target`, `reason` | Final decision and the evidence for it |
 
-Companies the agent marks as non-targets are excluded with its reason. After three manual cuts, 295
-targets went to verification. 86 passed, and 2 the agent couldn't check stayed in, for 88. Clearview
-AI was later excluded for brand risk, leaving 87.
+Companies the agent marks as non-targets are excluded with its reason. 87 targets remain.
 
 ## collect
 
@@ -94,8 +92,8 @@ software, or specialized lab or professional services.
 - `vendor_key` lowercases a name, splits it into words, drops a leading "the" and trailing legal
   suffixes such as Inc, LLC, and Corp, and joins the rest. `LEADSONLINE LLC` and `LeadsOnline, LLC`
   both become `leadsonline`.
-- `matches` checks whether one name appears inside another as a sequence of whole words. "Flock"
-  doesn't match "SELFLOCK SCREW PRODUCTS". CamelCase names like Mesa's are split before matching.
+- `matches` checks whether one name appears inside another as a sequence of whole words. "Acme"
+  doesn't match "PACMEN SUPPLY". CamelCase names like Mesa's are split before matching.
 
 ## Database tables
 

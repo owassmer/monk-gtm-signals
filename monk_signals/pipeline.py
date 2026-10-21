@@ -10,7 +10,9 @@ from concurrent.futures import ThreadPoolExecutor
 from . import agent, db, names
 from .sources import ledgers as L
 from .sources import public_records as P
-from .util import OUT, config, now_iso, today
+import yaml
+
+from .util import CONFIG, OUT, config, now_iso, today
 
 LOOKBACK_DAYS = 3 * 365          # history needed to call a payer "new" 24 months back, plus backtests
 MIN_TOTAL = 10_000               # de minimis payees are not accounts
@@ -26,7 +28,11 @@ VERIFY_COLS = ["domain_source", "ownership", "ownership_source", "size_band", "s
 
 
 def _exclusions():
-    ex = config("exclude.yaml")["exclude"]
+    ex = dict(config("exclude.yaml")["exclude"])
+    local = CONFIG / "exclude.local.yaml"
+    if local.exists():
+        for reason, lst in (yaml.safe_load(local.read_text()) or {}).get("exclude", {}).items():
+            ex[reason] = list(ex.get(reason, [])) + list(lst)
     return [(n, reason) for reason, lst in ex.items() for n in lst]
 
 
@@ -163,9 +169,8 @@ def collect(con):
     stats = {}
 
     # Every target is looked up in every ledger under every spelling seen anywhere, in the
-    # case variants governments use. Discovery only saw payees of public-safety departments,
-    # so a vendor a city pays through its port or parks department was otherwise missed
-    # (LA pays Lexipol through Harbor and Recreation & Parks, not LAPD).
+    # case variants governments use. Discovery only sees payees of public-safety departments;
+    # this also finds payments from a government's other departments, such as a port or parks.
     spellings = {}
     for t in ts:
         for raws in json.loads(t["raw_names"]).values():
@@ -191,9 +196,6 @@ def collect(con):
             print(f"    coverage {led.id}: {str(e)[:80]}")
     stats["payments"] = len(events)
 
-    # Council agenda items (sources/public_records.council_*) are not collected: matching
-    # agenda titles on vendor names surfaced ~13,500 candidates for 88 vendors. Payment
-    # ledgers already show every government that actually pays a vendor.
 
     print("2/2 federal awards", flush=True)
     def fed(t):

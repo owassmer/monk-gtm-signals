@@ -1,4 +1,4 @@
 cohort_week,source_signal,age_weeks,accounts,worked,reached_owner,problem_confirmed,next_step,signal_misfire
-2026-10-19,EXPANDING,0,3,0,0,0,0,0
+2026-10-19,EXPANDING,0,2,0,0,0,0,0
 2026-10-19,PAYER_SPRAWL,0,5,0,0,0,0,0
-2026-10-19,SLOW_PAYER,0,5,0,0,0,0,0
+2026-10-19,SLOW_PAYER,0,6,1,1,1,0,0

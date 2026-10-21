@@ -3,7 +3,7 @@
   ledgers [--verify]        list payment ledgers; --verify re-tests mapped invoice dates on live data
   discover                  departments -> public-safety payees -> agent screen -> targets
   verify                    agent web research per target: domain, ownership, size, channel
-  collect                   payments, council actions, federal awards for targets -> event store
+  collect                   invoice-level payments and federal awards for targets -> event store
   queue [--as-of DATE]      score every target as of a date -> out/queue.csv
   changes                   events first seen in the latest collect run
   backtest [--months N]     the queue a rep would have received each month, and what followed

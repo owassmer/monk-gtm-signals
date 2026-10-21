@@ -252,9 +252,3 @@ ledgers:
     amount: amount
     unit: department
     description: account_descr
-
-# Evaluated and left out:
-#   Chicago s4vu-giwb        check_date is free text mixing "01/02/2024" and "2024" (annual roll-ups)
-#   Denver (data.colorado.gov wnau-xrqi)  a Jan-Mar 2025 extract, not maintained
-#   Pittsburgh t8t2-4b5n     general ledger incl. budget entries, not a payment register
-#   Pierce County iwu2-biyj  general ledger journal lines

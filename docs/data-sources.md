@@ -52,15 +52,6 @@ These 14 ledgers show which governments and departments pay a vendor, and when.
 | `connecticut` | State of Connecticut | The agency name is in `program`. The `invoice_date` column equals the payment date in every tested row, so it isn't mapped. |
 | `delaware` | State of Delaware | |
 
-### Datasets evaluated and not used
-
-| Dataset | Reason |
-|---|---|
-| Chicago payments (`s4vu-giwb`) | `check_date` mixes full dates with year-only roll-ups. |
-| Denver checkbook (`data.colorado.gov/wnau-xrqi`) | A January to March 2025 extract that isn't maintained. |
-| Pittsburgh checkbook (`t8t2-4b5n`) | A general ledger that includes budget entries, not a payment register. |
-| Pierce County checkbook (`iwu2-biyj`) | General ledger journal lines. |
-
 ## Invoice date verification
 
 A column is mapped as `invoice_date` only if it behaves like an invoice date in the live data. The
@@ -89,10 +80,3 @@ sub-agency as the department.
    running `ledgers --verify` and confirming it passes.
 3. Run `discover` to classify the new government's departments and screen its payees, then
    `collect`.
-
-## City and county council records
-
-`config/councils.yaml` and `monk_signals/sources/public_records.py` contain a reader for Legistar
-council agendas. `collect` doesn't use it, because matching agenda titles on vendor names produced
-about 13,500 candidate items for 88 vendors. The payment ledgers already show every government that
-pays a vendor.

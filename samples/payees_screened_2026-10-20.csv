@@ -1,184 +1,180 @@
 company,is_target,category,confidence,reason,domain,governments,total_paid,spellings
-LeadsOnline,True,software/data,medium,"Investigative software for police; private, mid-size, law-enforcement core market.",,16,2331738,"LEADS ONLINE LLC | LEADSONLINE | LEADSONLINE LLC | LEADSONLINE PARENT LLC | LEADSONLINE PARENT, LLC | Leads...#1436 | LeadsOnline LLC | LeadsOnline LLc | Leadsonline"
+LeadsOnline,True,software/data,medium,"Investigative software for police; private, mid-size, law-enforcement core market.",leadsonline.com,16,2331738,"LEADS ONLINE LLC | LEADSONLINE | LEADSONLINE LLC | LEADSONLINE PARENT LLC | LEADSONLINE PARENT, LLC | Leads...#1436 | LeadsOnline LLC | LeadsOnline LLc | Leadsonline"
 Lexipol,True,training/policy content,medium,Private PE-backed policy and training content sold to public safety agencies.,lexipol.com,11,1562953,"LEXIPOL LLC | Lexip...#5401 | Lexipol LLC | Lexipol, LLC"
-Intoximeters,True,devices + software,medium,Private breath alcohol testing devices sold to law enforcement; multi-agency payments,intox.com,11,323681,"INTOXIMETERS INC | INTOXIMETERS INC. | INTOXIMETERS, INC | Intoximeters | Intoximeters Inc"
-ImageTrend,True,software/data,high,Growth-equity-backed EMS/fire software sold directly to agencies.,,10,6776258,"IMAGE TREND, LLC | IMAGETREND INC | IMAGETREND,  INC | IMAGETREND, INC | IMAGETREND, INC. | IMAGETREND, LLC | ImageTrend Inc | ImageTrend, LLC | ImageTrendInc | ImageTrendLLC"
+Intoximeters,True,devices + software,medium,Private breath alcohol testing devices sold to law enforcement; multi-agency payments,intoximeters.com,11,323681,"INTOXIMETERS INC | INTOXIMETERS INC. | INTOXIMETERS, INC | Intoximeters | Intoximeters Inc"
+ImageTrend,True,software/data,high,Growth-equity-backed EMS/fire software sold directly to agencies.,imagetrend.com,10,6776258,"IMAGE TREND, LLC | IMAGETREND INC | IMAGETREND,  INC | IMAGETREND, INC | IMAGETREND, INC. | IMAGETREND, LLC | ImageTrend Inc | ImageTrend, LLC | ImageTrendInc | ImageTrendLLC"
 Berla Corporation,True,software/data,high,Private vehicle forensics software sold to law enforcement agencies.,berla.co,10,151229,BERLA CORP | BERLA CORPORATION | Berla Corporation | BerlaCorporation
-3SI Security Systems,True,devices + software,medium,Private tracking devices/software for law enforcement and cash handling.,,10,136398,"3SI SECURITY SYSTEMS | 3SI SECURITY SYSTEMS INC | 3SI SECURITY SYSTEMS, INC | 3SI SECURITY SYSTEMS, INC. | 3SI Security Systems, Inc. | 3SISecuritySystems"
-NMS Labs,True,forensic/lab services,medium,Forensic toxicology but large PE-owned lab with big finance team,,9,7066355,"NATIONAL MEDICAL SERVICES | NATIONAL MEDICAL SERVICES INC | NATIONAL MEDICAL SERVICES INC. | NATIONAL MEDICAL SERVICES, INC. | NMS LABS | NMSLABS | NMSLabs | NationalMedicalServicesInc"
-PowerDMS,True,software/data,medium,Policy management SaaS sold mainly to public safety agencies; many governments. Ownership uncertain,,9,1220930,"POWER DMS INC | POWERDMS INC | POWERDMS, INC | POWERDMS, INC. | PowerDMS, Inc | PowerDMS, Inc. | PowerDMSInc"
-Applied Concepts (Stalker Radar),True,devices + software,medium,Founder-led radar maker selling directly to law enforcement,,9,167845,"APPLIED CONCEPTS | APPLIED CONCEPTS INC | APPLIED CONCEPTS, INC. | Applied Concepts Inc"
-ICOR Technology,True,devices + software,medium,Private bomb-disposal robot maker selling directly to police and fire.,,8,947713,"ICOR TECHNOLOGY INC | ICOR TECHNOLOGY INC. | ICOR TECHNOLOGY, INC. | ICOR Technology Inc | ICOR Technology Inc."
-Bode Cellmark Forensics,True,forensic/lab services,high,Private forensic DNA lab billing agencies per case.,,8,698542,"BODE CELLMARK FORENSICS INC | BODE CELLMARK FORENSICS, INC | BODE CELLMARK FORENSICS, INC. | BODE CELLMARK FORENSICS,INC. | Bode Cellmark Forensics Inc | Bode Cellmark Forensics Inc. | BodeCellmarkForensicsInc"
+3SI Security Systems,True,devices + software,medium,Private tracking devices/software for law enforcement and cash handling.,3si.com,10,136398,"3SI SECURITY SYSTEMS | 3SI SECURITY SYSTEMS INC | 3SI SECURITY SYSTEMS, INC | 3SI SECURITY SYSTEMS, INC. | 3SI Security Systems, Inc. | 3SISecuritySystems"
+PowerDMS,True,software/data,medium,Policy management SaaS sold mainly to public safety agencies; many governments. Ownership uncertain,powerdms.com,9,1220930,"POWER DMS INC | POWERDMS INC | POWERDMS, INC | POWERDMS, INC. | PowerDMS, Inc | PowerDMS, Inc. | PowerDMSInc"
+Applied Concepts (Stalker Radar),True,devices + software,medium,Founder-led radar maker selling directly to law enforcement,stalkerradar.com,9,167845,"APPLIED CONCEPTS | APPLIED CONCEPTS INC | APPLIED CONCEPTS, INC. | Applied Concepts Inc"
+ICOR Technology,True,devices + software,medium,Private bomb-disposal robot maker selling directly to police and fire.,icortechnology.com,8,947713,"ICOR TECHNOLOGY INC | ICOR TECHNOLOGY INC. | ICOR TECHNOLOGY, INC. | ICOR Technology Inc | ICOR Technology Inc."
+Bode Cellmark Forensics,True,forensic/lab services,high,Private forensic DNA lab billing agencies per case.,bodetech.com,8,698542,"BODE CELLMARK FORENSICS INC | BODE CELLMARK FORENSICS, INC | BODE CELLMARK FORENSICS, INC. | BODE CELLMARK FORENSICS,INC. | Bode Cellmark Forensics Inc | Bode Cellmark Forensics Inc. | BodeCellmarkForensicsInc"
 Stop Stick Ltd,True,devices + software,medium,Private tire-deflation device maker selling directly to police/sheriff agencies; size uncertain but plausible.,stopstick.com,8,355489,"STOP STICK  LTD. | STOP STICK LTD | STOP STICK, LTD | Stop Stick Ltd | StopStickLtd"
 CovertTrack Group,True,devices + software,medium,Private GPS tracking devices and software sold to law enforcement.,coverttrack.com,8,122294,"COVERTTRACK GROUP  INC | COVERTTRACK GROUP INC | COVERTTRACK GROUP, INC | COVERTTRACK GROUP, INC. | CovertTrackGroupInc | Coverttrack Group INC"
-Meridian Rapid Defense Group,True,commodity/supplies,medium,Vehicle/trailer and mobile unit manufacturer,,7,6162203,MERIDIAN RAPID DEFENSE GROUP LLC | MERIDIAN RAPID DEFENSE GROUP SALES LLC | Meridian Rapid Defense Group | MeridianRapidDefenseGroupLLC
-ESi Acquisition (Juvare/WebEOC),True,software/data,medium,Emergency management software (WebEOC) sold to agencies; private PE-backed mid-size.,,7,760103,"ESI ACQUISITION INC | ESI ACQUISITION, INC. | ESi Acquisition Inc"
-Pen-Link,True,software/data,medium,Private investigative software for law enforcement,,6,1136749,"PEN-LINK LTD | PEN-LINK LTD. | Pen Link Ltd | Pen-Link, Ltd. | Pen-LinkLtd"
+ESi Acquisition (Juvare/WebEOC),True,software/data,medium,Emergency management software (WebEOC) sold to agencies; private PE-backed mid-size.,juvare.com,7,760103,"ESI ACQUISITION INC | ESI ACQUISITION, INC. | ESi Acquisition Inc"
+Pen-Link,True,software/data,medium,Private investigative software for law enforcement,penlink.com,6,1136749,"PEN-LINK LTD | PEN-LINK LTD. | Pen Link Ltd | Pen-Link, Ltd. | Pen-LinkLtd"
 DataWorks Plus,True,software/data,high,Private biometrics/facial recognition software sold to police agencies,dataworksplus.com,6,749964,"DATAWORKS PLUS | DATAWORKS PLUS LLC | DATAWORKS PLUS, LLC | DataWorks Plus LLC"
-FirstTwo,True,software/data,high,Private founder-led public-safety software (FirstTwo alerts/ALPR data) sold to agencies.,firsttwo.us,6,147204,"FIRSTTWO INC | FirstTwo Inc | FirstTwo, Inc. | FirstTwo,INC. | FirstTwoInc"
-Watch Systems,True,software/data,medium,Private law-enforcement software and data subscriptions across many agencies.,,5,739729,"WATCH SYSTEMS LLC | WATCH SYSTEMS, LLC | Watch Systems LLC"
-FirstWatch Solutions,True,software/data,high,Private real-time analytics software for 911/EMS agencies.,firstwatch.com,5,653896,"FIRSTWATCH SOLUTIONS INC | FIRSTWATCH SOLUTIONS, INC. | FirstWatch"
-Collaborative Testing Services,True,training/policy content,medium,"Small proficiency-test provider, mature, not growth-stage.",cts-forensics.com,5,257090,"COLLABORATIVE TESTING SERVICES INC | COLLABORATIVE TESTING SERVICES, INC | COLLABORATIVE TESTING SVCS | Collaborative Testing Services Inc | CollaborativeTestingServicesInc"
-PepperBall,True,devices + software,low,Private less-lethal launcher maker selling to law enforcement,,5,195594,PEPPERBALL | PepperBall
-Pure Gold Forensics,True,forensic/lab services,medium,"Private forensic DNA lab billing law enforcement per case, like Othram.",,5,116948,"PURE GOLD FORENSICS INC | PURE GOLD FORENSICS, INC. | Pure Gold Forensics Inc | Pure Gold Forensics, Inc."
+FirstTwo,True,software/data,high,Private founder-led public-safety software (FirstTwo alerts/ALPR data) sold to agencies.,firsttwo.com,6,147204,"FIRSTTWO INC | FirstTwo Inc | FirstTwo, Inc. | FirstTwo,INC. | FirstTwoInc"
+Watch Systems,True,software/data,medium,Private law-enforcement software and data subscriptions across many agencies.,offenderwatch.com,5,739729,"WATCH SYSTEMS LLC | WATCH SYSTEMS, LLC | Watch Systems LLC"
+FirstWatch Solutions,True,software/data,high,Private real-time analytics software for 911/EMS agencies.,firstwatch.net,5,653896,"FIRSTWATCH SOLUTIONS INC | FIRSTWATCH SOLUTIONS, INC. | FirstWatch"
+PepperBall,True,devices + software,low,Private less-lethal launcher maker selling to law enforcement,pepperball.com,5,195594,PEPPERBALL | PepperBall
+Pure Gold Forensics,True,forensic/lab services,medium,"Private forensic DNA lab billing law enforcement per case, like Othram.",puregoldforensics.com,5,116948,"PURE GOLD FORENSICS INC | PURE GOLD FORENSICS, INC. | Pure Gold Forensics Inc | Pure Gold Forensics, Inc."
 Ensurity Mobile Corp,True,software/data,low,Likely mobile investigation tech sold to police/sheriffs across multiple agencies,,5,107675,ENSURITY MOBILE CORP | ENSURITYMOBILECORP | Ensurity Mobile Corp
 Digital Intelligence,True,devices + software,medium,Private digital forensics hardware and software for law enforcement.,digitalintelligence.com,5,81170,"DIGITAL INTELLIGENCE INC | DIGITAL INTELLIGENCE, INC. | DIGITALINTELLIGENCE | Digital Intelligence Inc"
-Biddle Consulting Group,True,professional services,medium,"Private employment testing/HR software for police, fire, courts agencies",,5,73219,"BIDDLE CONSULTING GROUP | BIDDLE CONSULTING GROUP INC | BIDDLE CONSULTING GROUP, INC. | BiddleConsultingGroupInc"
-Lafayette Instrument,True,devices + software,medium,Private polygraph maker selling to law enforcement,,5,33743,"LAFAYETTE INSTRUMENT CO | Lafayette Instrument | Lafayette Instrument Acquisition, LLC | LafayetteInstrumentC"
-Digitech Computer,True,professional services,low,Private EMS billing/collections services to fire departments; scaled firm,,4,4879165,"DIGITECH COMPUTER INC | DIGITECH COMPUTER LLC | DIGITECH COMPUTER, INC. | Digitech Computer LLC"
-Miller Mendel Inc,True,software/data,high,"eSOPH background investigation software and social media screening sold to law enforcement; private, founder-led.",,4,977610,MILLER MENDEL INC | Miller Mendel Inc | MillerMendelInc
-DNA Labs International,True,forensic/lab services,high,Private forensic DNA lab billing law enforcement per case,,4,908755,"DNA LABS INTERNATIONAL | DNA LABS INTERNATIONAL INC | DNA LABS INTERNATIONAL, INC | DNA Labs International"
-StarChase,True,devices + software,high,Private pursuit-tech devices and software sold to police agencies,,4,576425,STARCHASE LLC | StarChase LLC
-"Interactive Data, LLC",True,software/data,low,Private data/software vendor to police and prosecutors across multiple agencies,interactivedata.com,4,375608,"INTERACTIVE DATA, LLC | Interactive Data | Interactive Data LLC | Interactive Data, LLC"
+Biddle Consulting Group,True,professional services,medium,"Private employment testing/HR software for police, fire, courts agencies",biddle.com,5,73219,"BIDDLE CONSULTING GROUP | BIDDLE CONSULTING GROUP INC | BIDDLE CONSULTING GROUP, INC. | BiddleConsultingGroupInc"
+Lafayette Instrument,True,devices + software,medium,Private polygraph maker selling to law enforcement,lafayetteevaluation.com,5,33743,"LAFAYETTE INSTRUMENT CO | Lafayette Instrument | Lafayette Instrument Acquisition, LLC | LafayetteInstrumentC"
+Digitech Computer,True,professional services,low,Private EMS billing/collections services to fire departments; scaled firm,digitechcomputer.com,4,4879165,"DIGITECH COMPUTER INC | DIGITECH COMPUTER LLC | DIGITECH COMPUTER, INC. | Digitech Computer LLC"
+Miller Mendel Inc,True,software/data,high,"eSOPH background investigation software and social media screening sold to law enforcement; private, founder-led.",esoph.com,4,977610,MILLER MENDEL INC | Miller Mendel Inc | MillerMendelInc
+DNA Labs International,True,forensic/lab services,high,Private forensic DNA lab billing law enforcement per case,dnalabsinternational.com,4,908755,"DNA LABS INTERNATIONAL | DNA LABS INTERNATIONAL INC | DNA LABS INTERNATIONAL, INC | DNA Labs International"
+StarChase,True,devices + software,high,Private pursuit-tech devices and software sold to police agencies,starchase.com,4,576425,STARCHASE LLC | StarChase LLC
+"Interactive Data, LLC",True,software/data,low,Private data/software vendor to police and prosecutors across multiple agencies,redviolet.com,4,375608,"INTERACTIVE DATA, LLC | Interactive Data | Interactive Data LLC | Interactive Data, LLC"
 Laser Technology Inc,True,devices + software,medium,Private maker of TruSpeed lidar sold to police.,lasertech.com,4,340832,LASER TECHNOLOGY INC | LaserTechnologyInc
-Clearview AI,True,software/data,high,Venture-backed facial recognition sold directly to law enforcement.,clearview.ai,4,338009,"CLEARVIEW AI, INC. | Clearview AI Inc | Clearview AI, Inc."
-Pediatric Emergency Standards Inc,True,software/data,medium,Private small EMS/911 pediatric software and training sold to many agencies,pemsoft.com,4,315643,PEDIATRIC EMERGENCY STANDARDS INC | Pediatric Emergency Standards Inc | PediatricEmergencyStandardsInc
-Real Time Networks,True,devices + software,medium,"Private key/asset management systems with software for corrections, fire and sheriffs.",,4,269428,REAL TIME NETWORKS INC | REAL TIME NETWORKS INC. | Real Time Networks Inc | Real Time Networks Inc.
+Pediatric Emergency Standards Inc,True,software/data,medium,Private small EMS/911 pediatric software and training sold to many agencies,handtevy.com,4,315643,PEDIATRIC EMERGENCY STANDARDS INC | Pediatric Emergency Standards Inc | PediatricEmergencyStandardsInc
+Real Time Networks,True,devices + software,medium,"Private key/asset management systems with software for corrections, fire and sheriffs.",keytracer.com,4,269428,REAL TIME NETWORKS INC | REAL TIME NETWORKS INC. | Real Time Networks Inc | Real Time Networks Inc.
 Redwood Toxicology Laboratory,True,forensic/lab services,medium,Tox lab billing corrections/probation/defenders in multiple jurisdictions; Othram-like,redwoodtoxicology.com,4,264294,REDWOOD TOXICOLOGY LABORATORY INC | Redwood Toxicology Laboratory Inc
 SUMURI,True,forensic/lab services,medium,Private digital forensics tools sold to law enforcement; small scaling firm.,sumuri.com,4,214228,SUMURI LLC
-Leeds Precision Instruments,True,devices + software,medium,Private forensic comparison microscope maker selling to police crime labs.,,4,166577,"LEEDS PRECISION INSTRUMENTS INC | Leeds Precision Instruments, Inc. | LeedsPrecisionInstrumentsInc"
+Leeds Precision Instruments,True,devices + software,medium,Private forensic comparison microscope maker selling to police crime labs.,leedsmicro.com,4,166577,"LEEDS PRECISION INSTRUMENTS INC | Leeds Precision Instruments, Inc. | LeedsPrecisionInstrumentsInc"
 FileOnQ,True,software/data,high,Private evidence management software for police; sells directly.,fileonq.com,4,154982,"FILE ON Q | FILEONQ, INC | FileOnQ Inc"
-Inveris Training Solutions,True,devices + software,medium,Private use-of-force simulator maker selling to police and sheriffs,,4,152345,"INVERIS TRAINING SOLUTIONS INC | INVERIS TRAINING SOLUTIONS, INC. | InVerisTraining Solutions, Inc"
+Inveris Training Solutions,True,devices + software,medium,Private use-of-force simulator maker selling to police and sheriffs,inveristraining.com,4,152345,"INVERIS TRAINING SOLUTIONS INC | INVERIS TRAINING SOLUTIONS, INC. | InVerisTraining Solutions, Inc"
 DroneSense,True,software/data,high,VC-backed drone program software sold to police and fire agencies,dronesense.com,4,116338,"DRONESENSE INC | DRONESENSE, INC | DRONESENSE, INC. | DroneSenseInc"
-Frontline Public Safety Solutions,True,software/data,low,Public safety software maintenance across several agencies; size unknown.,,4,102048,FRONTLINE PUBLIC SAFETY SOLUTIONS | Frontline Public Safety Solutions
-The Change Companies,True,training/policy content,medium,"Private journaling curriculum sold to corrections, probation and courts.",,4,82026,CHANGE COMPANIES INC | Change Companies Inc | THE CHANGE COMPANIES | The Change Companies
-BRINC Drones,True,devices + software,high,VC-backed public safety drone company selling directly to agencies.,,4,65383,"BRINC DRONES INC. | BRINC DRONES, INC. | BRINC Drones, Inc."
+Frontline Public Safety Solutions,True,software/data,low,Public safety software maintenance across several agencies; size unknown.,frontlinepss.com,4,102048,FRONTLINE PUBLIC SAFETY SOLUTIONS | Frontline Public Safety Solutions
+The Change Companies,True,training/policy content,medium,"Private journaling curriculum sold to corrections, probation and courts.",changecompanies.net,4,82026,CHANGE COMPANIES INC | Change Companies Inc | THE CHANGE COMPANIES | The Change Companies
+BRINC Drones,True,devices + software,high,VC-backed public safety drone company selling directly to agencies.,brincdrones.com,4,65383,"BRINC DRONES INC. | BRINC DRONES, INC. | BRINC Drones, Inc."
 Cybergenetics,True,forensic/lab services,medium,Private TrueAllele forensic DNA software/expert services to police and prosecutors.,cybgen.com,4,61833,CYBERGENETICS CORP | Cybergenetics Corp | Cybergenetics Corp.
-Subsentio,True,professional services,medium,Private CALEA/lawful intercept compliance services for law enforcement and carriers.,,4,59412,SUBSENTIO LLC | Subsentio Inc. | Subsentio LLC
+Subsentio,True,professional services,medium,Private CALEA/lawful intercept compliance services for law enforcement and carriers.,subsentio.com,4,59412,SUBSENTIO LLC | Subsentio Inc. | Subsentio LLC
 DetectaChem,True,devices + software,medium,Private maker of handheld chemical detection devices sold to law enforcement/corrections,detectachem.com,4,53591,"DETECTACHEM INC | DetectaChem, Inc."
-Identisys,True,devices + software,low,Private ID card/badge systems vendor selling to police and courts; small but plausible.,,4,46252,IDENTISYS INC | IDENTISYS INCORPORATED
-Journal Technologies,True,software/data,medium,"Court/prosecutor case management software, private",,3,4598239,"JOURNAL TECHNOLOGIES | JOURNAL TECHNOLOGIES INC | JOURNAL TECHNOLOGIES, INC."
+Identisys,True,devices + software,low,Private ID card/badge systems vendor selling to police and courts; small but plausible.,identisys.com,4,46252,IDENTISYS INC | IDENTISYS INCORPORATED
+Journal Technologies,True,software/data,medium,"Court/prosecutor case management software, private",journaltech.com,3,4598239,"JOURNAL TECHNOLOGIES | JOURNAL TECHNOLOGIES INC | JOURNAL TECHNOLOGIES, INC."
 Peregrine Technologies,True,software/data,high,VC-backed public safety data platform sold to police departments.,peregrine.io,3,3925706,"PEREGRINE TECHNOLOGIES | PEREGRINE TECHNOLOGIES, INC | PeregrineTechnologiesInc"
 Bio-Tox Laboratories,True,forensic/lab services,medium,Private forensic toxicology lab billing law enforcement and prosecutors per case.,,3,3525803,"BIO TOX LABORATORIES | BIO-TOX LABORATORIES, INC. | Bio-Tox Laboratories"
-Net Transcripts,True,professional services,medium,"Private transcription services sold to police, prosecutors, public defenders across multiple agencies; $1.6M.",,3,1642418,"NET TRANSCRIPTS INC | NET TRANSCRIPTS, INC | Net Transcripts Inc"
-Data Ticket Inc,True,software/data,medium,Private citation software and handhelds sold to police/code enforcement.,,3,1426359,"DATA TICKET INC | DATA TICKET, INC. | Data Ticket Inc"
+Net Transcripts,True,professional services,medium,"Private transcription services sold to police, prosecutors, public defenders across multiple agencies; $1.6M.",nettranscripts.com,3,1642418,"NET TRANSCRIPTS INC | NET TRANSCRIPTS, INC | Net Transcripts Inc"
+Data Ticket Inc,True,software/data,medium,Private citation software and handhelds sold to police/code enforcement.,dataticket.com,3,1426359,"DATA TICKET INC | DATA TICKET, INC. | Data Ticket Inc"
 Morris & McDaniel,True,professional services,medium,Private promotional exam testing firm for police/fire agencies,,3,1154494,"MORRIS & MCDANIEL, INC. | MORRIS AND MCDANIEL, INC | Morris and McDaniel, Inc"
-Industrial/Organizational Solutions,True,professional services,medium,Private promotional exam services built for public safety agencies,,3,1027498,"INDUSTRIAL/ORGANIZATIONAL SOLUTIONS INC | INDUSTRIAL/ORGANIZATIONAL SOLUTIONS, INC. | Industrial/Organizational Solutions, Inc."
-HLP Inc,True,software/data,low,Private animal licensing software (Chameleon) for government agencies,,3,666340,HLP INC | HLP Inc
-Autoclear LLC,True,devices + software,low,Security screening devices sold to courts/police; size uncertain,,3,456304,AUTOCLEAR LLC
+Industrial/Organizational Solutions,True,professional services,medium,Private promotional exam services built for public safety agencies,iosolutions.com,3,1027498,"INDUSTRIAL/ORGANIZATIONAL SOLUTIONS INC | INDUSTRIAL/ORGANIZATIONAL SOLUTIONS, INC. | Industrial/Organizational Solutions, Inc."
+HLP Inc,True,software/data,low,Private animal licensing software (Chameleon) for government agencies,chameleonbeach.com,3,666340,HLP INC | HLP Inc
+Autoclear LLC,True,devices + software,low,Security screening devices sold to courts/police; size uncertain,autoclear.com,3,456304,AUTOCLEAR LLC
 American Forensic Nurses,True,forensic/lab services,low,Forensic blood draw services billed to law enforcement; size uncertain.,,3,444744,AMERICAN FORENSIC NURSES | American Forensic Nurses Inc
-EMS Technology Solutions (Operative IQ),True,software/data,high,Private inventory/asset software for fire/EMS agencies,,3,432193,"EMS TECHNOLOGY SOLUTIONS LLC | EMS TECHNOLOGY SOLUTIONS, LLC"
-Guardian Alliance Technologies,True,software/data,high,"Private public-safety hiring/background software, many agencies",,3,430050,"GUARDIAN ALLIANCE TECHNOLOGIES, INC. | Guardian Alliance Technologies, Inc."
-NicheVision Forensics,True,software/data,medium,"Forensic DNA software (FaSTR, STRmix reseller) sold to crime labs; small private firm.",,3,403165,NICHEVISION FORENSICS LLC | NICHEVISIONFORENSICS | NichevisionForensicsLLC
+EMS Technology Solutions (Operative IQ),True,software/data,high,Private inventory/asset software for fire/EMS agencies,operativeiq.com,3,432193,"EMS TECHNOLOGY SOLUTIONS LLC | EMS TECHNOLOGY SOLUTIONS, LLC"
+Guardian Alliance Technologies,True,software/data,high,"Private public-safety hiring/background software, many agencies",guardianalliancetechnologies.com,3,430050,"GUARDIAN ALLIANCE TECHNOLOGIES, INC. | Guardian Alliance Technologies, Inc."
+NicheVision Forensics,True,software/data,medium,"Forensic DNA software (FaSTR, STRmix reseller) sold to crime labs; small private firm.",nichevision.com,3,403165,NICHEVISION FORENSICS LLC | NICHEVISIONFORENSICS | NichevisionForensicsLLC
 Tek84,True,devices + software,high,Private body scanner maker selling to jails and sheriffs.,tek84.com,3,375358,TEK84 INC | Tek84 Inc | Tek84 Inc.
 GovWorx,True,software/data,high,Private AI software (CommsCoach) for 911 dispatch QA; sells to agencies.,govworx.com,3,327500,"GOVWORX INC | GOVWORX, INC | GovWorx, Inc."
-US Digital Designs,True,devices + software,medium,Private fire station alerting hardware/software,,3,288659,US DIGITAL DESIGNS INC | USDigitalDesigns
-Legal Files Software,True,software/data,medium,Private legal case management SaaS sold to prosecutors/government legal; small,,3,273126,"LEGAL FILES SOFTWARE | LEGAL FILES SOFTWARE INC | LEGAL FILES SOFTWARE, INC."
+US Digital Designs,True,devices + software,medium,Private fire station alerting hardware/software,usdigitaldesigns.com,3,288659,US DIGITAL DESIGNS INC | USDigitalDesigns
+Legal Files Software,True,software/data,medium,Private legal case management SaaS sold to prosecutors/government legal; small,legalfiles.com,3,273126,"LEGAL FILES SOFTWARE | LEGAL FILES SOFTWARE INC | LEGAL FILES SOFTWARE, INC."
 AristaTek Inc,True,software/data,medium,Private fire/EMS software (PEAC) sold directly to agencies.,aristatek.com,3,253467,ARISTA TEK INC | ARISTATEK INC. | AristaTek Inc
 Foster & Freeman,True,devices + software,low,"Private forensic equipment maker (Crime-Lite) selling to labs; modest size, borderline.",fosterfreeman.com,3,242138,FOSTER & FREEMAN USA INC | FOSTER AND FREEMAN LTD | Foster & Freeman USA Inc
-Lodox NA,True,devices + software,low,Full-body X-ray devices for medical examiners and crime labs; small private.,,3,175445,"LODOX NA LLC | Lodox NA, LLC"
-BI2 Technologies,True,software/data,high,Private iris biometrics software for sheriffs/corrections; sells directly.,bi2tech.com,3,145119,"BI2 TECHNOLOGIES | BI2 TECHNOLOGIES LLC | BI2 Technologies, LLC"
-Informer Systems,True,software/data,medium,Private scheduling software for 911/public safety agencies; sells directly.,informersystems.com,3,102555,"INFORMER SYSTEMS | Informer Systems,LLC | InformerSystemsLLC"
-Infax,True,software/data,medium,Private jail/court records software sold to sheriffs and courts.,,3,93034,"INFAX | INFAX, INC | INFAX, INC."
-LivingWorks Education,True,training/policy content,low,Private suicide-prevention training sold to police and fire agencies.,,3,91781,"LIVINGWORKS EDUCATION USA INC | LivingWorks Education LP | LivingWorks Education USA, Inc."
-Force Science Institute,True,training/policy content,medium,Private research-based training sold to police agencies nationally.,,3,91360,FORCE SCIENCE INSTITUTE L | FORCE SCIENCE INSTITUTE LTD
+Lodox NA,True,devices + software,low,Full-body X-ray devices for medical examiners and crime labs; small private.,lodox.com,3,175445,"LODOX NA LLC | Lodox NA, LLC"
+BI2 Technologies,True,software/data,high,Private iris biometrics software for sheriffs/corrections; sells directly.,bi2technologies.com,3,145119,"BI2 TECHNOLOGIES | BI2 TECHNOLOGIES LLC | BI2 Technologies, LLC"
+Informer Systems,True,software/data,medium,Private scheduling software for 911/public safety agencies; sells directly.,safecities.com,3,102555,"INFORMER SYSTEMS | Informer Systems,LLC | InformerSystemsLLC"
+Infax,True,software/data,medium,Private jail/court records software sold to sheriffs and courts.,infax.com,3,93034,"INFAX | INFAX, INC | INFAX, INC."
+LivingWorks Education,True,training/policy content,low,Private suicide-prevention training sold to police and fire agencies.,livingworks.net,3,91781,"LIVINGWORKS EDUCATION USA INC | LivingWorks Education LP | LivingWorks Education USA, Inc."
+Force Science Institute,True,training/policy content,medium,Private research-based training sold to police agencies nationally.,forcescience.com,3,91360,FORCE SCIENCE INSTITUTE L | FORCE SCIENCE INSTITUTE LTD
 Adaptive Digital Systems,True,devices + software,low,"Covert video surveillance devices for law enforcement; small, plausibly founder-led",,3,76191,ADAPTIVE DIGITAL SYSTEMS | ADAPTIVE DIGITAL SYSTEMS INC | Adaptive Digital Systems Inc
-TimeKeeping Systems,True,devices + software,medium,Private guard-tour/inmate-monitoring devices and software for corrections.,,3,63231,"TIMEKEEPING SYSTEMS INC | TimeKeeping Systems, Inc. | TimeKeepingSystemsInc"
-Force Science,True,training/policy content,medium,Private police training/research firm selling certification courses to agencies; small scale.,,3,60523,"FORCE SCIENCE, LTD | Force Science Ltd | Force Science, Ltd."
-Whooster Inc,True,software/data,medium,"Phone data/SaaS for law enforcement; small private, many agencies",,3,51881,WHOOSTER INC | Whooster Inc | WhoosterInc
+TimeKeeping Systems,True,devices + software,medium,Private guard-tour/inmate-monitoring devices and software for corrections.,guard1.com,3,63231,"TIMEKEEPING SYSTEMS INC | TimeKeeping Systems, Inc. | TimeKeepingSystemsInc"
+Force Science,True,training/policy content,medium,Private police training/research firm selling certification courses to agencies; small scale.,forcescience.com,3,60523,"FORCE SCIENCE, LTD | Force Science Ltd | Force Science, Ltd."
+Whooster Inc,True,software/data,medium,"Phone data/SaaS for law enforcement; small private, many agencies",whooster.com,3,51881,WHOOSTER INC | Whooster Inc | WhoosterInc
 Alert-All Corp,True,devices + software,low,"Private fire station alerting and accountability maker; small payments, plausible.",,3,46266,ALERT ALL CORP | Alert-All Corp. | Alert-All Corporation
-Merakai LLC (Mission Darkness),True,devices + software,low,"Faraday evidence-bag devices for law enforcement; likely small private, size uncertain.",,3,44443,MERAKAI LLC | Merakai LLC
-Voice Products Inc,True,devices + software,low,iRecorder interview recording systems for police/corrections; likely small private,,3,39541,"VOICE PRODUCTS INC | VOICE PRODUCTS, INC"
-Air Data UAV,True,software/data,medium,Drone fleet software sold to public safety agencies; small private,,3,39319,AIRDATA UAV INC | AirDataUAVInc | Airdata UAV Inc
-Amped Software,True,software/data,medium,Private forensic video software for law enforcement,,3,23250,"AMPED SOFTWARE USA INC | Amped Software USA, Inc."
-LETS - A Law Enforcement Technologies Corporation,True,software/data,medium,Private narcotics monitoring subscription tech for law enforcement.,,3,22700,LETS - A LAW ENFORCEMENT TECHNOLOGIES CORPORATION | LETS - A Law Enforcement Technologies Corporation | LETS-A LAW ENFORCEMENT TECHNOLOGIES CORP
-Hawk Analytics (CellHawk),True,software/data,medium,CellHawk cell-record analysis software sold to law enforcement.,,3,21848,HAWKS CONSULTING LLC | Hawks Consulting
-Cordant Health Solutions,True,forensic/lab services,low,Private toxicology lab serving corrections/probation/courts; size and healthcare focus uncertain,,2,15822533,CORDANT HEALTH SOLUTIONS
-Sentinel Offender Services LLC,True,devices + software,medium,Private electronic monitoring/offender services sold to justice agencies; large county billings.,,2,14523859,SENTINEL OFFENDER SERVICES LLC | Sentinel Offender Services LLC
-Correct Rx Pharmacy Services,True,professional services,medium,Private inmate pharmacy provider to corrections agencies; recurring large invoices,,2,4171702,"CORRECT RX PHARMACY SERVICES INC | CORRECT RX PHARMACY SERVICES, INC."
-Hagerty Consulting,True,professional services,medium,"Private emergency management consultancy, core public-sector clients",,2,3669234,"HAGERTY CONSULTING INC. | Hagerty Consulting, Inc."
-Appriss Insights,True,software/data,medium,"PE-backed data/software for justice (VINE, pretrial); sells directly to agencies",,2,2627761,APPRISS INSIGHTS LLC
+Merakai LLC (Mission Darkness),True,devices + software,low,"Faraday evidence-bag devices for law enforcement; likely small private, size uncertain.",mosequipment.com,3,44443,MERAKAI LLC | Merakai LLC
+Voice Products Inc,True,devices + software,low,iRecorder interview recording systems for police/corrections; likely small private,voiceproducts.com,3,39541,"VOICE PRODUCTS INC | VOICE PRODUCTS, INC"
+Air Data UAV,True,software/data,medium,Drone fleet software sold to public safety agencies; small private,airdata.com,3,39319,AIRDATA UAV INC | AirDataUAVInc | Airdata UAV Inc
+Amped Software,True,software/data,medium,Private forensic video software for law enforcement,ampedsoftware.com,3,23250,"AMPED SOFTWARE USA INC | Amped Software USA, Inc."
+LETS - A Law Enforcement Technologies Corporation,True,software/data,medium,Private narcotics monitoring subscription tech for law enforcement.,letscorp.com,3,22700,LETS - A LAW ENFORCEMENT TECHNOLOGIES CORPORATION | LETS - A Law Enforcement Technologies Corporation | LETS-A LAW ENFORCEMENT TECHNOLOGIES CORP
+Hawk Analytics (CellHawk),True,software/data,medium,CellHawk cell-record analysis software sold to law enforcement.,hawks-consulting-academy.learnworlds.com,3,21848,HAWKS CONSULTING LLC | Hawks Consulting
+Cordant Health Solutions,True,forensic/lab services,low,Private toxicology lab serving corrections/probation/courts; size and healthcare focus uncertain,cordantsolutions.com,2,15822533,CORDANT HEALTH SOLUTIONS
+Sentinel Offender Services LLC,True,devices + software,medium,Private electronic monitoring/offender services sold to justice agencies; large county billings.,sentineladvantage.com,2,14523859,SENTINEL OFFENDER SERVICES LLC | Sentinel Offender Services LLC
+Correct Rx Pharmacy Services,True,professional services,medium,Private inmate pharmacy provider to corrections agencies; recurring large invoices,correctrxpharmacy.com,2,4171702,"CORRECT RX PHARMACY SERVICES INC | CORRECT RX PHARMACY SERVICES, INC."
+Hagerty Consulting,True,professional services,medium,"Private emergency management consultancy, core public-sector clients",hagertyconsulting.com,2,3669234,"HAGERTY CONSULTING INC. | Hagerty Consulting, Inc."
+Appriss Insights,True,software/data,medium,"PE-backed data/software for justice (VINE, pretrial); sells directly to agencies",apprissinsights.com,2,2627761,APPRISS INSIGHTS LLC
 Aeon Nexus Corp,True,professional services,low,"Large prosecutor-only payments in two jurisdictions; unknown firm, likely specialized services; weak evidence.",,2,2228123,AEON NEXUS CORP | AEON NEXUS CORPORATION
-JusticeText,True,software/data,high,VC-backed AI evidence software for public defenders; sells to government.,,2,993000,JUSTICETEXT INC | JusticeText Inc
-"Mission Critical Partners, LLC",True,professional services,low,"Public safety/911 consulting; private, mid-size; ownership uncertain",missioncriticalpartners.com,2,853417,"MISSION CRITICAL PARTNERS, LLC | Mission Critical Partners, LLC"
+JusticeText,True,software/data,high,VC-backed AI evidence software for public defenders; sells to government.,justicetext.com,2,993000,JUSTICETEXT INC | JusticeText Inc
+"Mission Critical Partners, LLC",True,professional services,low,"Public safety/911 consulting; private, mid-size; ownership uncertain",mcp911.com,2,853417,"MISSION CRITICAL PARTNERS, LLC | Mission Critical Partners, LLC"
 Justice Benefits Inc,True,professional services,medium,Founder-led corrections/justice consulting sold to multiple counties,justicebenefits.com,2,849680,JUSTICE BENEFITS INC | Justice Benefits Inc
-Karpel Computer Systems,True,software/data,high,Private prosecutor case management software sold to DA offices,,2,846238,KARPEL COMPUTER SYSTEMS INC | KarpelComputerSystemsInc
-Avertest,True,forensic/lab services,medium,"Private drug-testing lab serving courts and probation; scaling, per-test billing",,2,814861,AVERTEST LLC | Avertest
+Karpel Computer Systems,True,software/data,high,Private prosecutor case management software sold to DA offices,karpel.com,2,846238,KARPEL COMPUTER SYSTEMS INC | KarpelComputerSystemsInc
+Avertest,True,forensic/lab services,medium,"Private drug-testing lab serving courts and probation; scaling, per-test billing",averhealth.com,2,814861,AVERTEST LLC | Avertest
 ANDE Corporation,True,devices + software,high,Private rapid DNA maker selling to law enforcement and crime labs,ande.com,2,803696,ANDE CORPORATION | ANDE Corporation
 Premier Biotech,True,devices + software,low,"Private drug-testing maker selling to corrections/probation; large volume, supplies-like",premierbiotech.com,2,775005,PREMIER BIOTECH INC | PREMIER BIOTECH LLC
-Panoramic Software,True,software/data,medium,Private case management software for public defenders and sheriffs; multiple counties,panoramicsoftware.com,2,682140,PANORAMIC SOFTWARE INC | Panoramic Software Inc
-National Testing Network,True,professional services,medium,Private candidate testing services sold to fire and police departments; recurring per-test invoices.,,2,432182,"NATIONAL TESTING NETWORK, INC. | NationalTestingNetworkInc"
-GenCore Candeo,True,professional services,low,"Emergency preparedness training vendor, sizable payments from 911/sheriff.",,2,423508,"GenCore Candeo Ltd | GenCore Candeo, Ltd."
-CourtSmart Digital Systems,True,software/data,medium,Private court recording software with support agreements sold to courts.,courtsmart.com,2,382750,"COURTSMART DIGITAL SYSTEM | COURTSMART DIGITAL SYSTEMS, INC."
-Priority Dispatch Corp,True,software/data,medium,"Private 911 dispatch protocol software/training sold to PSAPs, fire/EMS nationwide",,2,371059,PRIORITY DISPATCH CORP | Priority Dispatch Corp
+Panoramic Software,True,software/data,medium,Private case management software for public defenders and sheriffs; multiple counties,vetpro.us,2,682140,PANORAMIC SOFTWARE INC | Panoramic Software Inc
+National Testing Network,True,professional services,medium,Private candidate testing services sold to fire and police departments; recurring per-test invoices.,nationaltestingnetwork.com,2,432182,"NATIONAL TESTING NETWORK, INC. | NationalTestingNetworkInc"
+GenCore Candeo,True,professional services,low,"Emergency preparedness training vendor, sizable payments from 911/sheriff.",genesisworld.com,2,423508,"GenCore Candeo Ltd | GenCore Candeo, Ltd."
+CourtSmart Digital Systems,True,software/data,medium,Private court recording software with support agreements sold to courts.,fortherecord.com,2,382750,"COURTSMART DIGITAL SYSTEM | COURTSMART DIGITAL SYSTEMS, INC."
+Priority Dispatch Corp,True,software/data,medium,"Private 911 dispatch protocol software/training sold to PSAPs, fire/EMS nationwide",prioritydispatch.net,2,371059,PRIORITY DISPATCH CORP | Priority Dispatch Corp
 eScribers,True,professional services,low,"Court transcription/recording services sold to courts, prosecutors; private scaling firm.",,2,361981,ESCRIBERS LLC
 Datamaxx,True,software/data,medium,Private law-enforcement data/messaging software; may be part of larger parent.,datamaxx.com,2,359971,"DATAMAXX | DATAMAXX APPLIED TECHNOLOGIES, INC."
 ESO Solutions,True,software/data,medium,"EMS/fire software, PE growth-backed, sells directly to agencies.",eso.com,2,352798,"ESO SOLUTIONS INC | ESO Solutions, Inc."
-Western State Design,True,software/data,medium,"ESD InSynch scheduling software for public safety; founder-led, scaling.",,2,348399,WESTERN STATE DESIGN INC | Western State Design Inc
-EMS Management & Consultants,True,professional services,medium,Private EMS third-party billing firm serving fire/EMS agencies,,2,337824,"EMS MANAGEMENT & CONSULTANTS INC | EMS MANAGEMENT & CONSULTANTS, INC."
+Western State Design,True,software/data,medium,"ESD InSynch scheduling software for public safety; founder-led, scaling.",westernstatedesign.com,2,348399,WESTERN STATE DESIGN INC | Western State Design Inc
+EMS Management & Consultants,True,professional services,medium,Private EMS third-party billing firm serving fire/EMS agencies,emsmc.com,2,337824,"EMS MANAGEMENT & CONSULTANTS INC | EMS MANAGEMENT & CONSULTANTS, INC."
 JusticeTrax,True,software/data,medium,"LIMS forensic software sold to police/crime labs; private, mid-size vendor.",justicetrax.com,2,334934,JUSTICE TRAX | JusticetraxInc
-Justice Works LLC,True,software/data,medium,Case management software for public defenders; small private vendor,,2,316054,JUSTICE WORKS LLC | Justice Works LLC
+Justice Works LLC,True,software/data,medium,Case management software for public defenders; small private vendor,justiceworks.com,2,316054,JUSTICE WORKS LLC | Justice Works LLC
 Quetel Corporation,True,software/data,medium,"Private police software/equipment vendor, multiple agencies, sizeable payments",quetel.com,2,296823,QUETEL CORPORATION | QueTelCorporation
 Tablet Command,True,software/data,medium,Fire incident command software sold to fire departments; private.,,2,291826,TABLET COMMAND INC | Tablet Command Inc
-Diskriter Inc,True,software/data,medium,Private medical examiner case management software/transcription vendor; sells to ME offices,,2,269605,DISKRITER INC
-Nighthawk.Cloud,True,software/data,low,Software and support sold to police departments; size unknown.,,2,242746,"Nighthawk.Cloud, LLC | Nighthawk.CloudInc"
-OCV LLC,True,software/data,low,Software license sold to sheriffs; likely small private jail/law-enforcement software vendor.,ocv.com,2,216468,"OCV LLC | OCV, LLC"
+Diskriter Inc,True,software/data,medium,Private medical examiner case management software/transcription vendor; sells to ME offices,diskriter.com,2,269605,DISKRITER INC
+Nighthawk.Cloud,True,software/data,low,Software and support sold to police departments; size unknown.,leadsonline.com,2,242746,"Nighthawk.Cloud, LLC | Nighthawk.CloudInc"
+OCV LLC,True,software/data,low,Software license sold to sheriffs; likely small private jail/law-enforcement software vendor.,thesheriffapp.com,2,216468,"OCV LLC | OCV, LLC"
 Activu Corp,True,software/data,medium,Private visualization software/hardware for 911 and emergency operations centers; mid-size,activu.com,2,178188,ACTIVU CORP | ActivuCorporation
-Trakka USA LLC,True,devices + software,low,Private airborne searchlight/camera maker for law enforcement; size uncertain,trakkausa.com,2,173812,TRAKKA USA LLC | Trakka USA LLC
+Trakka USA LLC,True,devices + software,low,Private airborne searchlight/camera maker for law enforcement; size uncertain,trakka.com,2,173812,TRAKKA USA LLC | Trakka USA LLC
 Core Correctional Solutions,True,professional services,low,Private correctional/probation client services sold to courts and corrections.,,2,160327,"CORE CORRECTIONAL SOLUTIONS LLC | Core Correctional Solutions, LLC"
-Reconnect Inc. (formerly Call2Test),True,software/data,medium,Drug-testing call-in and monitoring software for courts/probation,call2test.com,2,160248,RECONNECT INC (FORMERLY CALL2TEST) | Reconnect Inc.(formally Call2Test)
-Silicon Forensics,True,devices + software,low,Forensic computing hardware sold directly to police/prosecutors; likely small founder-led.,,2,158545,"SILICON FORENSICS INC, | Silicon Forensics Inc"
+Reconnect Inc. (formerly Call2Test),True,software/data,medium,Drug-testing call-in and monitoring software for courts/probation,reconnect.io,2,160248,RECONNECT INC (FORMERLY CALL2TEST) | Reconnect Inc.(formally Call2Test)
+Silicon Forensics,True,devices + software,low,Forensic computing hardware sold directly to police/prosecutors; likely small founder-led.,siliconforensics.com,2,158545,"SILICON FORENSICS INC, | Silicon Forensics Inc"
 Orbis Partners,True,software/data,medium,Offender assessment software and training sold to courts and corrections.,orbispartners.com,2,155563,ORBIS PARTNERS INC. | ORBIS PARTNERS LLC
-Deep Trekker,True,devices + software,medium,"Private ROV maker, sells to public safety dive teams; right size.",,2,138291,DEEP TREKKER INC
-Kaseware,True,software/data,high,Private case management software for law enforcement,,2,134505,KASEWARE INC | Kaseware
-Code 5 Group,True,devices + software,low,LTE GPS trackers and tracking service sold to police; small private firm.,,2,113655,"CODE 5 GROUP, LLC | Code 5 Group LLC"
+Deep Trekker,True,devices + software,medium,"Private ROV maker, sells to public safety dive teams; right size.",deeptrekker.com,2,138291,DEEP TREKKER INC
+Kaseware,True,software/data,high,Private case management software for law enforcement,kaseware.com,2,134505,KASEWARE INC | Kaseware
+Code 5 Group,True,devices + software,low,LTE GPS trackers and tracking service sold to police; small private firm.,code5group.com,2,113655,"CODE 5 GROUP, LLC | Code 5 Group LLC"
 Vertiq Software,True,software/data,medium,Medical examiner/crime lab case software sold to agencies.,vertiqsoftware.com,2,109580,VERTIQ SOFTWARE LLC
 CoreMR LC,True,software/data,low,"Software licensing to corrections; small private vendor, limited evidence",,2,107852,COREMR L C | COREMR LC
-Mideo Systems,True,software/data,medium,Private forensic imaging software sold to crime labs and police,,2,88897,Mideo Systems Inc | MideoSystemsInc
-Evans Consoles,True,devices + software,medium,Private 911 dispatch console maker selling to public safety,,2,85658,Evans Consoles Incorporated | EvansConsolesIncorporated
-RollKall Technologies,True,software/data,medium,Extra-duty scheduling SaaS for police; small private software company.,,2,78438,"ROLLKALL TECHNOLOGIES LLC | ROLLKALL TECHNOLOGIES,LLC"
-Digital Airware,True,software/data,medium,Private aviation software for police air units,,2,69216,"DIGITAL AIRWARE, LLC | DigitalAirwareLLC"
-First Response Mental Health,True,software/data,low,Small private first-responder mental health platform,,2,68580,First Response Mental Health Inc. | FirstResponseMentalHealthInc
-QuickSeries Publishing,True,training/policy content,low,Small private publisher of 911/corrections reference content sold to agencies.,,2,65545,"QUICKSERIES PUBLISHING INC | QUICKSERIES PUBLISHING, INC"
+Mideo Systems,True,software/data,medium,Private forensic imaging software sold to crime labs and police,mideosystems.com,2,88897,Mideo Systems Inc | MideoSystemsInc
+Evans Consoles,True,devices + software,medium,Private 911 dispatch console maker selling to public safety,evansconsoles.com,2,85658,Evans Consoles Incorporated | EvansConsolesIncorporated
+RollKall Technologies,True,software/data,medium,Extra-duty scheduling SaaS for police; small private software company.,rollkall.com,2,78438,"ROLLKALL TECHNOLOGIES LLC | ROLLKALL TECHNOLOGIES,LLC"
+Digital Airware,True,software/data,medium,Private aviation software for police air units,digitalairwarellc.com,2,69216,"DIGITAL AIRWARE, LLC | DigitalAirwareLLC"
+First Response Mental Health,True,software/data,low,Small private first-responder mental health platform,firstresponsemh.com,2,68580,First Response Mental Health Inc. | FirstResponseMentalHealthInc
+QuickSeries Publishing,True,training/policy content,low,Small private publisher of 911/corrections reference content sold to agencies.,quickseries.com,2,65545,"QUICKSERIES PUBLISHING INC | QUICKSERIES PUBLISHING, INC"
 TRM Labs,True,software/data,high,VC-backed blockchain intelligence sold to police and prosecutors.,trmlabs.com,2,65245,TRM LABS INC | TRMLabsInc
 Veoci,True,software/data,medium,Private emergency management software sold to agencies.,veoci.com,2,59102,VEOCI INC. | VeociInc
 Forensic Assessment Technologies,True,forensic/lab services,medium,Private forensic consultancy serving prosecutors/defenders; small scaling,,2,56953,FORENSIC ASSESSMENT TECHNOLOGIES | FORENSIC ASSESSMENT TECHNOLOGIES INC
 Special Services Group,True,devices + software,low,"Covert surveillance/tracking devices with software sold to law enforcement; private, mid-size.",,2,54151,"SPECIAL SERVICES GROUP LLC | SPECIAL SERVICES GROUP, LLC"
-Fireblast Global,True,devices + software,medium,Private fire training systems maker selling to fire agencies across counties,,2,50488,"FIREBLAST GLOBAL INC | Fireblast Global, Inc."
-StreamLink Software,True,software/data,medium,Private jail/corrections software sold to sheriffs.,,2,48750,StreamLink Software Inc | StreamLink Software Inc.
-Silent 6 LLC,True,devices + software,low,"GPS trackers and service sold to police; size uncertain, possibly small",,2,42737,SILENT 6 LLC | Silent 6 LLC
-Sorenson Forensics,True,forensic/lab services,high,"Private forensic DNA lab billing law enforcement per case, like Othram.",,2,38075,"SORENSON FORENSICS, LLC | Sorenson Forensics LLC"
+Fireblast Global,True,devices + software,medium,Private fire training systems maker selling to fire agencies across counties,fireblastglobal.com,2,50488,"FIREBLAST GLOBAL INC | Fireblast Global, Inc."
+StreamLink Software,True,software/data,medium,Private jail/corrections software sold to sheriffs.,streamlinksoftware.com,2,48750,StreamLink Software Inc | StreamLink Software Inc.
+Silent 6 LLC,True,devices + software,low,"GPS trackers and service sold to police; size uncertain, possibly small",silent6.net,2,42737,SILENT 6 LLC | Silent 6 LLC
+Sorenson Forensics,True,forensic/lab services,high,"Private forensic DNA lab billing law enforcement per case, like Othram.",sorensonforensics.com,2,38075,"SORENSON FORENSICS, LLC | Sorenson Forensics LLC"
 Forensic Radiology Group,True,forensic/lab services,low,Private forensic radiology services to medical examiners and sheriffs across counties; size uncertain,forensicradiologygroup.com,2,31378,FORENSIC RADIOLOGY GROUP LLC | Forensic Radiology Group LLC
-Savant Learning Systems,True,training/policy content,low,Small private 911 training software vendor,,2,30551,SAVANT LEARNING SYSTEMS | SavantLearningSystems
+Savant Learning Systems,True,training/policy content,low,Small private 911 training software vendor,savantlearning.org,2,30551,SAVANT LEARNING SYSTEMS | SavantLearningSystems
 Evidence IQ,True,software/data,medium,Private forensic video analysis software sold to law enforcement and prosecutors.,evidenceiq.com,2,29593,EVIDENCE IQ INC | Evidence IQ Inc
-Maverick Data Systems,True,software/data,low,"Warrant Builder software for police; small private vendor, size uncertain.",,2,20593,MAVERICK DATA SYSTEMS
+Maverick Data Systems,True,software/data,low,"Warrant Builder software for police; small private vendor, size uncertain.",warrantbuilder.com,2,20593,MAVERICK DATA SYSTEMS
 Blue Peak Logic Inc,True,software/data,low,Small software vendor to corrections/probation across two counties,,2,15631,BLUE PEAK LOGIC INC | Blue Peak Logic Inc
-Land Air Sea Systems,True,devices + software,medium,Private GPS tracking devices/subscriptions for law enforcement; small-mid founder-led,,2,13431,LAND AIR SEA SYSTEMS INC | LANDAIRSEA SYSTEMS
+Land Air Sea Systems,True,devices + software,medium,Private GPS tracking devices/subscriptions for law enforcement; small-mid founder-led,landairsea.com,2,13431,LAND AIR SEA SYSTEMS INC | LANDAIRSEA SYSTEMS
 Platinum Educational Group,True,software/data,medium,Private EMS testing/education platform licensed to fire/EMS agencies; small scaling company.,platinumed.com,2,11530,PLATINUM EDUCATIONAL GROUP LLC
-X-Naut,True,devices + software,low,Small private maker of cooling devices for firefighters; sells to fire departments.,,2,11212,X NAUT LLC | X-NAUT
-Turn Key Health Clinics LLC,True,professional services,low,"Private correctional healthcare provider, large jail contract; possible fit, size uncertain",,1,20158265,TURN KEY HEALTH CLINICS LLC
+X-Naut,True,devices + software,low,Small private maker of cooling devices for firefighters; sells to fire departments.,x-naut.com,2,11212,X NAUT LLC | X-NAUT
+Turn Key Health Clinics LLC,True,professional services,low,"Private correctional healthcare provider, large jail contract; possible fit, size uncertain",tkhealth.care,1,20158265,TURN KEY HEALTH CLINICS LLC
 NexGen Solutions LLC,True,software/data,low,"SBITA/IT data services to 911 dept, $3.3M; likely 911 software vendor.",,1,3276991,NEXGEN SOLUTIONS LLC
-Quartech Corrections,True,software/data,medium,"Training, evaluation and management software for LAPD; private, justice-focused vendor.",,1,2885250,QUARTECH CORRECTIONS LLC
-Alcohol Monitoring Systems Inc,True,devices + software,medium,SCRAM alcohol monitoring devices/software sold to probation and sheriffs; private.,,1,2877823,Alcohol Monitoring Systems Inc
-Pacific Toxicology Laboratories,True,forensic/lab services,medium,Private toxicology lab billing probation agencies per test; mid-size,,1,1896476,Pacific Toxicology Laboratories
-3DI Inc,True,software/data,medium,Case and fire inspection management software for public safety agencies; likely small private firm.,3di-info.com,1,1785760,3DI INC
+Quartech Corrections,True,software/data,medium,"Training, evaluation and management software for LAPD; private, justice-focused vendor.",quartechjustice.com,1,2885250,QUARTECH CORRECTIONS LLC
+Alcohol Monitoring Systems Inc,True,devices + software,medium,SCRAM alcohol monitoring devices/software sold to probation and sheriffs; private.,scramsystems.com,1,2877823,Alcohol Monitoring Systems Inc
+Pacific Toxicology Laboratories,True,forensic/lab services,medium,Private toxicology lab billing probation agencies per test; mid-size,pacifictox.com,1,1896476,Pacific Toxicology Laboratories
+3DI Inc,True,software/data,medium,Case and fire inspection management software for public safety agencies; likely small private firm.,3disystems.com,1,1785760,3DI INC
 Armstrong Forensic Laboratory,True,forensic/lab services,medium,Private forensic toxicology lab billing police per case; sizable payments.,,1,1730110,"Armstrong Forensic Laboratory, Inc."
 PivotPath,True,professional services,low,"Private law enforcement-focused marketing/software firm; large police spend, borderline fit.",,1,1637079,PIVOTPATH LLC
-"Lewis Infotech, Inc.",True,software/data,low,"Software license to Courts, $1.47M; small private vendor, limited info",,1,1471246,"LEWIS INFOTECH, INC."
-For The Record (FTR),True,software/data,medium,Courtroom recording software (SBITA) sold to courts; private mid-size vendor.,,1,1290000,FOR THE RECORD
-Civix (MB3 Inc),True,software/data,medium,"Private 911/NG911 GIS data and SaaS vendor, SaaS payments from 911 department.",civixgis.com,1,1144000,MB3 INC DBA CIVIX
+"Lewis Infotech, Inc.",True,software/data,low,"Software license to Courts, $1.47M; small private vendor, limited info",lewisinfotech.com,1,1471246,"LEWIS INFOTECH, INC."
+For The Record (FTR),True,software/data,medium,Courtroom recording software (SBITA) sold to courts; private mid-size vendor.,fortherecord.com,1,1290000,FOR THE RECORD
+Civix (MB3 Inc),True,software/data,medium,"Private 911/NG911 GIS data and SaaS vendor, SaaS payments from 911 department.",civix.com,1,1144000,MB3 INC DBA CIVIX
 Jury Systems Incorporated,True,software/data,medium,"Private jury management software for courts, large software license payments",jurysystems.com,1,1107854,Jury Systems Incorporated
-Justice and Security Strategies,True,professional services,low,"Justice-focused research/evaluation consultancy; plausible founder-led small firm, uncertain size.",,1,1094570,JUSTICE AND SECURITY STRATEGIES INC
+Justice and Security Strategies,True,professional services,low,"Justice-focused research/evaluation consultancy; plausible founder-led small firm, uncertain size.",jssinc.org,1,1094570,JUSTICE AND SECURITY STRATEGIES INC
 GL Suite Inc,True,software/data,medium,"Grants management SaaS paid by 911/emergency management; ~$1M, private software vendor",glsuite.us,1,998027,GL SUITE INC
-Celplan Technologies,True,devices + software,medium,Private wireless surveillance camera systems sold to police; small scaling firm,,1,988124,"CELPLAN TECHNOLOGIES INC | CELPLAN TECHNOLOGIES, INC."
-FreeIT Data Solutions,True,software/data,low,Private software vendor; large police software maintenance payment.,,1,935000,"FREEIT DATA SOLUTIONS, INC"
-Carbyne,True,software/data,high,VC-backed 911 cloud platform sold to PSAPs and police.,carbyne.com,1,923400,"CARBYNE, INC | CARBYNE, INC."
+Celplan Technologies,True,devices + software,medium,Private wireless surveillance camera systems sold to police; small scaling firm,celplan.com,1,988124,"CELPLAN TECHNOLOGIES INC | CELPLAN TECHNOLOGIES, INC."
+FreeIT Data Solutions,True,software/data,low,Private software vendor; large police software maintenance payment.,freeitdata.com,1,935000,"FREEIT DATA SOLUTIONS, INC"
+Carbyne,True,software/data,high,VC-backed 911 cloud platform sold to PSAPs and police.,carbyne911.com,1,923400,"CARBYNE, INC | CARBYNE, INC."
 Coquina Labs Inc,True,forensic/lab services,low,Lab-named vendor billing Prosecutor and Sheriff ~$844k; likely forensic services.,,1,844319,Coquina Labs Inc | Coquina Labs Inc.
-RaySecur Inc,True,devices + software,medium,VC-backed threat-detection mail scanners sold to corrections agencies,,1,808826,RAYSECUR INC
+RaySecur Inc,True,devices + software,medium,VC-backed threat-detection mail scanners sold to corrections agencies,raysecur.com,1,808826,RAYSECUR INC
 LabLynx Inc,True,software/data,high,Private LIMS software vendor for crime labs and medical examiners,lablynx.com,1,733690,LABLYNX INC
-Omnigo Software,True,software/data,medium,Private public-safety/incident management software sold to police; SaaS contracts,,1,703607,OMNIGO SOFTWARE LLC
+Omnigo Software,True,software/data,medium,Private public-safety/incident management software sold to police; SaaS contracts,omnigo.com,1,703607,OMNIGO SOFTWARE LLC
 eMages Inc,True,software/data,low,"Courts-focused imaging/records vendor, ~$679k over 98 payments; uncertain size",,1,679019,EMAGES INC
-Witt O'Brien's,True,professional services,medium,Private emergency management consultancy serving government agencies.,,1,659000,WITT O'BRIEN'S LLC
+Witt O'Brien's,True,professional services,medium,Private emergency management consultancy serving government agencies.,wittobriens.com,1,659000,WITT O'BRIEN'S LLC
 Teleosoft Inc,True,software/data,medium,Private software vendor for law enforcement/corrections; large Sheriff contract,teleosoft.com,1,577342,Teleosoft Inc
 Blue Source Group Inc,True,software/data,low,Software licensing to Fire & EMS and Police; unclear but plausible,,1,536885,BLUE SOURCE GROUP INC
 Emerald City Software LLC,True,software/data,low,"Software maintenance sold to Corrections & Probation; small software vendor, unclear details",,1,527253,EMERALD CITY SOFTWARE LLC
 GSSi Inc,True,software/data,low,911 and prosecutor payments of $500k suggest tech services; ambiguous,,1,500406,GSSi Inc
 Cycom Data Systems,True,software/data,low,CityLaw prosecutor case management software with annual maintenance; small founder-led.,,1,471649,CYCOM DATA SYSTEMS INC
-V-Armed,True,software/data,medium,Private VR training software for police,,1,448400,V-Armed Inc.
-iWebVisit.com,True,software/data,low,Likely video visitation/web service for jails and defenders; sizeable recurring payments,,1,441157,iWebVisit.com LLC
+V-Armed,True,software/data,medium,Private VR training software for police,v-armed.com,1,448400,V-Armed Inc.
+iWebVisit.com,True,software/data,low,Likely video visitation/web service for jails and defenders; sizeable recurring payments,iwebvisit.com,1,441157,iWebVisit.com LLC
 Sidepath Inc,True,software/data,medium,Private software for prosecutors/case management; large Prosecutor payments,sidepath.com,1,440256,Sidepath Inc
-LiveProcess Corporation,True,software/data,low,Likely private software vendor for 911/emergency management; sizable payments,liveprocess.com,1,425205,LiveProcess Corporation
+LiveProcess Corporation,True,software/data,low,Likely private software vendor for 911/emergency management; sizable payments,juvare.com,1,425205,LiveProcess Corporation
 First Due,True,software/data,medium,"Private fire department software SaaS, growth-stage, subscription billing to agencies",firstdue.com,1,418415,FIRST DUE HOLDINGS INC
 Citygate Associates LLC,True,professional services,low,Public-safety consulting firm selling to fire agencies; scale uncertain,citygateassociates.com,1,370261,"Citygate Associates, LLC"
 Animated Storyboards,True,training/policy content,low,Sells de-escalation training course directly to LAPD; size uncertain,animatedstoryboards.com,1,347600,ANIMATED STORYBOARDS INC
@@ -187,116 +183,116 @@ Touch Legal Inc,True,software/data,low,"Likely legal/discovery tech vendor to Sh
 4Sight Labs,True,devices + software,medium,"Probation monitoring tech, private, sells to corrections agencies",4sightlabs.com,1,327273,4Sight Labs
 Tybera Development Group,True,professional services,low,"IT data services to Courts, $278k; private tech firm, plausible",,1,278271,TYBERA
 Federal Engineering Inc,True,professional services,medium,Private consultancy for public safety communications and 911 agencies.,fedeng.com,1,266416,"FEDERAL ENGINEERING, INC."
-Proof Technology Inc,True,software/data,low,"Likely Proof process-service platform, venture-backed; paid by prosecutor for process service.",,1,257864,PROOF TECHNOLOGY INC
-Quality Recording Solutions,True,software/data,medium,Private call recording software for 911 and EMS.,,1,257303,"Quality Recording Solutions, LLC"
+Proof Technology Inc,True,software/data,low,"Likely Proof process-service platform, venture-backed; paid by prosecutor for process service.",proof.com,1,257864,PROOF TECHNOLOGY INC
+Quality Recording Solutions,True,software/data,medium,Private call recording software for 911 and EMS.,qrsworld.com,1,257303,"Quality Recording Solutions, LLC"
 Personnel Research & Development Corp.,True,professional services,low,"Public-safety hiring/testing services, likely small private firm",,1,252060,Personnel Research & Development Corp.
-365 Labs LLC,True,devices + software,medium,Ticket writer devices and management system for police and courts; small private tech vendor.,,1,241752,365 LABS LLC
+365 Labs LLC,True,devices + software,medium,Ticket writer devices and management system for police and courts; small private tech vendor.,365labs.com,1,241752,365 LABS LLC
 Sicuro Data Analytics Inc,True,software/data,low,Data analytics vendor paid by Prosecutor; plausible growth-stage justice tech,,1,241450,SICURO DATA ANALYTICS INC
-Morse Watchman Inc,True,devices + software,low,Private key-control devices/software sold to corrections and law enforcement; public safety share uncertain,,1,235120,MORSE WATCHMAN INC
+Morse Watchman Inc,True,devices + software,low,Private key-control devices/software sold to corrections and law enforcement; public safety share uncertain,morsewatchmans.com,1,235120,MORSE WATCHMAN INC
 Westnet,True,devices + software,medium,Private maker of First-In fire station alerting systems sold to fire departments.,westnetinc.com,1,223439,"WESTNET LLC | WESTNET, INC"
 Conscisys Corporation,True,software/data,low,Private court case-management software vendor; sizable court payments,conscisys.com,1,223166,CONSCISYS CORPORATION
-iParametrics,True,professional services,low,Disaster recovery/grant management consultancy for emergency management agencies; likely small founder-led.,,1,220259,"IPARAMETRICS, LLC"
+iParametrics,True,professional services,low,Disaster recovery/grant management consultancy for emergency management agencies; likely small founder-led.,iparametrics.com,1,220259,"IPARAMETRICS, LLC"
 Everlaw,True,software/data,medium,VC-backed eDiscovery SaaS; prosecutors and public agencies pay directly; justice a key market.,everlaw.com,1,219652,EVERLAW INC
-Fairfax Imaging LLC,True,professional services,low,Private court document imaging/IT vendor; courts are core market; size uncertain,,1,219389,FAIRFAX IMAGING LLC
-Inmate Calling Solutions (ICSolutions),True,software/data,low,"Corrections-focused inmate communications tech sold to agencies; private, mid-size.",,1,217731,INMATE CALLING SOLUTIONS LLC
-Guardian RFID,True,devices + software,medium,Private RFID inmate tracking tech sold to jails and corrections,,1,204655,GUARDIAN RFID
-Knox Company (Knox Box),True,devices + software,medium,Private key-box/rapid-access maker selling to fire departments; core public safety.,,1,191467,KNOX ASSOCIATES DBA KNOX COMPANY
-Utility Associates,True,devices + software,high,Private body/in-car camera and software vendor to police and sheriffs.,utility.com,1,183295,"Utility Associates, Inc."
+Fairfax Imaging LLC,True,professional services,low,Private court document imaging/IT vendor; courts are core market; size uncertain,fairfaxsoftware.com,1,219389,FAIRFAX IMAGING LLC
+Inmate Calling Solutions (ICSolutions),True,software/data,low,"Corrections-focused inmate communications tech sold to agencies; private, mid-size.",icsolutions.com,1,217731,INMATE CALLING SOLUTIONS LLC
+Guardian RFID,True,devices + software,medium,Private RFID inmate tracking tech sold to jails and corrections,guardianrfid.com,1,204655,GUARDIAN RFID
+Knox Company (Knox Box),True,devices + software,medium,Private key-box/rapid-access maker selling to fire departments; core public safety.,knoxbox.com,1,191467,KNOX ASSOCIATES DBA KNOX COMPANY
+Utility Associates,True,devices + software,high,Private body/in-car camera and software vendor to police and sheriffs.,coreforcetech.com,1,183295,"Utility Associates, Inc."
 Enchoice,True,software/data,low,Police software maintenance $177k; likely private software vendor,,1,176659,Enchoice
-Matrix Consulting Group,True,professional services,low,"Public safety/government management consultancy; small private firm, plausible fit",,1,175398,MATRIX CONSULTING GROUP LTD
+Matrix Consulting Group,True,professional services,low,"Public safety/government management consultancy; small private firm, plausible fit",matrixcg.net,1,175398,MATRIX CONSULTING GROUP LTD
 Axis Forensic Toxicology,True,forensic/lab services,medium,Private forensic toxicology lab billing medical examiner per case.,axisfortox.com,1,165277,"Axis Forensic Toxicology, Inc."
-Lawbase,True,software/data,medium,"Prosecutor case management software vendor, private and small",,1,163680,LAWBASE
+Lawbase,True,software/data,medium,"Prosecutor case management software vendor, private and small",lawbase.com,1,163680,LAWBASE
 FormMaker Software,True,software/data,low,"Court notice/forms software and mailing sold to courts; small, founder-led likely.",formmaker.com,1,159846,FormMaker Software Inc.
-Wittman Enterprises,True,professional services,medium,EMS ambulance billing services for fire agencies; private specialized firm.,,1,153450,WITTMAN ENTERPRISES
+Wittman Enterprises,True,professional services,medium,EMS ambulance billing services for fire agencies; private specialized firm.,wittmanenterprises.com,1,153450,WITTMAN ENTERPRISES
 Cadre Research Labs,True,software/data,medium,Private forensic 3D imaging devices+software sold to police labs,cadreforensics.com,1,153450,CADRE RESEARCH LABS (ILLINOIS) LLC
 Kologik Software Inc,True,software/data,medium,"CopSync law enforcement software, private, sells directly to agencies",kologik.com,1,147615,KOLOGIK SOFTWARE INC
-MissionCIT LLC,True,software/data,low,Likely small private cyber services/licenses vendor to 911/public safety; unverified,,1,141075,MISSIONCIT LLC
-Matrix Pointe Software,True,software/data,medium,"Prosecutor case management software, private, sells to agencies",,1,126650,"Matrix Pointe Software, LLC"
-NCIC Inmate Communications,True,devices + software,low,Private inmate communications tech for jails; borderline telecom,,1,122075,NCIC Inmate Communications
-Geoconex,True,software/data,medium,Private GIS/NG911 data software vendor to 911 centers,,1,110000,GEOCONEX
+MissionCIT LLC,True,software/data,low,Likely small private cyber services/licenses vendor to 911/public safety; unverified,missioncit.com,1,141075,MISSIONCIT LLC
+Matrix Pointe Software,True,software/data,medium,"Prosecutor case management software, private, sells to agencies",matrixpointesoftware.com,1,126650,"Matrix Pointe Software, LLC"
+NCIC Inmate Communications,True,devices + software,low,Private inmate communications tech for jails; borderline telecom,ncic.com,1,122075,NCIC Inmate Communications
+Geoconex,True,software/data,medium,Private GIS/NG911 data software vendor to 911 centers,geoconex.com,1,110000,GEOCONEX
 Hireed Brands LLC,True,training/policy content,low,Books and public safety training sold to fire dept; ~$105k; unclear size,,1,105612,HIREED BRANDS LLC
 Station Automation,True,software/data,medium,"Fire station alerting software, small private vendor",,1,105083,StationAutomationInc
-Skopenow,True,software/data,high,Private OSINT investigation software sold to law enforcement.,,1,100000,"Skopenow, Inc."
+Skopenow,True,software/data,high,Private OSINT investigation software sold to law enforcement.,skopenow.com,1,100000,"Skopenow, Inc."
 Internet Probation and Parole Control Inc,True,software/data,medium,Online offender monitoring/info service sold to courts and probation; small private firm,,1,90730,INTERNET PROBATION AND PAROLE CONTROL INC
-Tidal Basin Government Consulting,True,professional services,low,"Private emergency management/disaster consulting; fits loosely, size uncertain",,1,89829,TIDAL BASIN GOVERNMENT CONSULTING LLC
+Tidal Basin Government Consulting,True,professional services,low,"Private emergency management/disaster consulting; fits loosely, size uncertain",tidalbasingroup.com,1,89829,TIDAL BASIN GOVERNMENT CONSULTING LLC
 Justsolve Inc,True,software/data,low,Likely justice/probation software or services vendor; recurring payments,,1,87808,Justsolve Inc
-Bradford Systems Corporation,True,software/data,low,"Likely small private software/forms vendor to courts, police, prosecutors",,1,85188,BRADFORD SYSTEMS CORPORATION
-Setcom Corporation,True,devices + software,low,"Fire/EMS communications headsets maker, private small manufacturer",,1,83683,SETCOMCORPORATION
-Knox Company,True,devices + software,medium,Private Knox-Box key systems sold to fire departments; fire core market,,1,77218,Knox Company
+Bradford Systems Corporation,True,software/data,low,"Likely small private software/forms vendor to courts, police, prosecutors",bradfordsystems.com,1,85188,BRADFORD SYSTEMS CORPORATION
+Setcom Corporation,True,devices + software,low,"Fire/EMS communications headsets maker, private small manufacturer",setcomcorp.com,1,83683,SETCOMCORPORATION
+Knox Company,True,devices + software,medium,Private Knox-Box key systems sold to fire departments; fire core market,knoxbox.com,1,77218,Knox Company
 Redacted Software,True,software/data,low,Police software subscriptions; likely small private vendor,,1,74959,REDACTED Software
 General Devices,True,devices + software,low,Private fire/EMS-focused hardware and software vendor; e-Bridge interpreter maintenance.,generaldevices.com,1,72488,GENERAL DEVICES
-IP Access,True,software/data,low,Private comms/EMR tech sold to public safety; small,,1,72435,IP ACCESS
+IP Access,True,software/data,low,Private comms/EMR tech sold to public safety; small,ipinternational.net,1,72435,IP ACCESS
 Valid8 Financial Inc,True,software/data,medium,Private bad-check/diversion program provider selling to district attorneys.,valid8financial.com,1,71000,Valid8 Financial Inc
 Forensic Mapping Solutions,True,devices + software,low,"Crime scene mapping tech sold to law enforcement; size uncertain, likely small",,1,69052,FORENSIC MAPPING SOLUTIONS INC
-Dynatouch Corporation,True,devices + software,low,Touchscreen/kiosk systems with software maintenance sold to corrections; small private firm.,,1,66492,DYNATOUCH CORPORATION
-Fama Technologies,True,software/data,medium,Private AI social-media background screening software sold to law enforcement,famatech.ai,1,64784,"Fama Technologies Inc | Fama Technologies, Inc"
-Electronic Sentencing Alternatives Inc,True,devices + software,low,"Electronic monitoring for courts; small, likely private, justice-focused",,1,64744,ELECTRONIC SENTENCING ALTERNATIVES INC
-Accurate Biometrics,True,devices + software,low,Fingerprint/biometric ID systems for corrections and courts; small private,,1,62980,ACCURATE BIOMETRICS INC
-Insight LPR,True,software/data,medium,Private license plate recognition database software for police.,,1,62500,"Insight LPR, LLC"
+Dynatouch Corporation,True,devices + software,low,Touchscreen/kiosk systems with software maintenance sold to corrections; small private firm.,dynatouch.com,1,66492,DYNATOUCH CORPORATION
+Fama Technologies,True,software/data,medium,Private AI social-media background screening software sold to law enforcement,fama.io,1,64784,"Fama Technologies Inc | Fama Technologies, Inc"
+Electronic Sentencing Alternatives Inc,True,devices + software,low,"Electronic monitoring for courts; small, likely private, justice-focused",esakc.com,1,64744,ELECTRONIC SENTENCING ALTERNATIVES INC
+Accurate Biometrics,True,devices + software,low,Fingerprint/biometric ID systems for corrections and courts; small private,accuratebiometrics.com,1,62980,ACCURATE BIOMETRICS INC
+Insight LPR,True,software/data,medium,Private license plate recognition database software for police.,insightlpr.com,1,62500,"Insight LPR, LLC"
 Converus,True,software/data,high,Private EyeDetect credibility assessment software sold to law enforcement.,converus.com,1,57600,"Converus, Inc."
-Velocity Systems LLC,True,software/data,low,"Likely tactical medical/data software sold to sheriff; unclear, private.",,1,57193,Velocity Systems LLC
-SoftGenetics LLC,True,software/data,medium,Private forensic DNA software sold to state crime labs,,1,56900,SOFTGENETICS LLC
-Terrace Metrics,True,software/data,medium,"Police analytics software, small private firm selling to agencies",,1,55142,"Terrace Metrics, Inc."
+Velocity Systems LLC,True,software/data,low,"Likely tactical medical/data software sold to sheriff; unclear, private.",velsyst.com,1,57193,Velocity Systems LLC
+SoftGenetics LLC,True,software/data,medium,Private forensic DNA software sold to state crime labs,softgenetics.com,1,56900,SOFTGENETICS LLC
+Terrace Metrics,True,software/data,medium,"Police analytics software, small private firm selling to agencies",terracemetrics.org,1,55142,"Terrace Metrics, Inc."
 "TextGov, LLC",True,software/data,medium,Court text-notification software sold to agencies; small private vendor,textgov.com,1,53365,"TextGov, LLC"
 TECH5 USA,True,software/data,low,Private biometrics/identity software sold to sheriff; public-safety fit uncertain,tech5.ai,1,51741,TECH5 USA INC
 CloudGavel LLC,True,software/data,medium,E-warrant software subscription sold to law enforcement; small private vendor,cloudgavel.com,1,51000,CLOUDGAVEL LLC
 Fivecast,True,software/data,medium,Private OSINT analytics software sold to law enforcement and intelligence agencies.,fivecast.com,1,49896,FIVECAST PTY LTD
 Hive Technology Inc,True,software/data,low,Software licenses and updates for police; unknown small vendor,,1,49636,HiveTechnologyInc
-Mentalix,True,software/data,medium,Private fingerprint/biometric software vendor to police and courts,,1,49200,"Mentalix, Inc"
-Reveal Technology,True,software/data,medium,VC-backed drone/AI software (Farsight) sold to public safety agencies.,,1,48278,REVEAL TECHNOLOGY INC
-Astrophysics Inc,True,devices + software,low,Private X-ray screening devices sold to courts and security agencies,,1,47393,ASTROPHYSICSINC
+Mentalix,True,software/data,medium,Private fingerprint/biometric software vendor to police and courts,mentalix.com,1,49200,"Mentalix, Inc"
+Reveal Technology,True,software/data,medium,VC-backed drone/AI software (Farsight) sold to public safety agencies.,revealtechnology.com,1,48278,REVEAL TECHNOLOGY INC
+Astrophysics Inc,True,devices + software,low,Private X-ray screening devices sold to courts and security agencies,astrophysicsinc.com,1,47393,ASTROPHYSICSINC
 McMurchy Performance Systems LLC,True,software/data,low,"Police resilience programming plus technology platform; small founder-led, plausible fit",,1,46000,MCMURCHY PERFORMANCE SYSTEMS LLC
 MedixSafe,True,devices + software,medium,Private maker of EMS medication security cabinets with BioConnect software subscription.,medixsafe.com,1,45609,MEDIXSAFE LLC
-BlazeStack,True,software/data,medium,Startup fire department software sold to agencies,,1,45000,BLAZESTACK INC.
+BlazeStack,True,software/data,medium,Startup fire department software sold to agencies,blazestack.com,1,45000,BLAZESTACK INC.
 Baron Weather,True,software/data,medium,Private weather SaaS sold to emergency management and public safety agencies.,baronweather.com,1,44467,BARON WEATHER INC
 Aladtec,True,software/data,low,Scheduling software for public safety; size and ownership uncertain.,aladtec.com,1,44450,"Aladtec, LLC"
 Crime Gun Intelligence Technologies,True,software/data,low,Likely small startup selling crime gun data software to police.,,1,43200,"Crime Gun Intelligence Technologies, LLC"
 Bode Technology Group,True,forensic/lab services,medium,"Private forensic DNA lab billing law enforcement, like Othram.",bodetech.com,1,42908,THE BODE TECHNOLOGY GROUP INC
 Harbor Government Solutions,True,software/data,low,"Software/maintenance sold to prosecutors; small, unclear if reseller",,1,39322,HARBOR GOVERNMENT SOLUTIONS LLC
-Bold Technologies Ltd (SIMS),True,software/data,low,Private software vendor; FormWriter police forms; core market partly security/alarm,,1,38874,BOLD TECHNOLOGIES LTD. DBA SIMS
-Flaim Systems,True,devices + software,medium,Private VR fire training devices/software sold to fire agencies.,,1,38708,FLAIM SYSTEMS PTY LTD
-EPR Systems,True,software/data,medium,"Small private fire/EMS software vendor (ePCR, inventory, Fireworks) selling directly to agencies.",eprsystems.com,1,37982,EPR SYSTEMS USA INC
-HazSim,True,software/data,low,Hazmat training simulation software for fire agencies; small private; one purchase.,,1,35691,HAZSIM
-"Zeteky, Inc.",True,software/data,low,Unknown; police database software payment suggests public-safety software vendor.,,1,35250,"Zeteky, Inc."
-FusionRMS LLC,True,software/data,medium,Records management software for sheriffs; small private vendor.,,1,34437,FusionRMS LLC
-Justice AV Solutions,True,devices + software,low,"Courtroom AV tech vendor built for courts; likely small private, integrator risk",,1,34327,JUSTICE AV SOLUTIONS
-Hexordia LLC,True,forensic/lab services,medium,Digital forensics training and expert services for police/prosecutors; small private firm,,1,33609,HEXORDIA LLC
-Savant Learning Systems (Virtual Academy),True,training/policy content,low,Online training for 911/public safety; small private.,,1,33000,"SAVANT LEARNING SYSTEM, INC. DBA VIRTUAL ACADEMY"
-Essential Education,True,software/data,medium,"Private adult-ed software sold to corrections agencies; mid-size, direct government seller.",,1,33000,ESSENTIAL EDUCATION
+Bold Technologies Ltd (SIMS),True,software/data,low,Private software vendor; FormWriter police forms; core market partly security/alarm,boldgroup.com,1,38874,BOLD TECHNOLOGIES LTD. DBA SIMS
+Flaim Systems,True,devices + software,medium,Private VR fire training devices/software sold to fire agencies.,flaimsystems.com,1,38708,FLAIM SYSTEMS PTY LTD
+EPR Systems,True,software/data,medium,"Small private fire/EMS software vendor (ePCR, inventory, Fireworks) selling directly to agencies.",eprfireworks.com,1,37982,EPR SYSTEMS USA INC
+HazSim,True,software/data,low,Hazmat training simulation software for fire agencies; small private; one purchase.,hazsim.com,1,35691,HAZSIM
+"Zeteky, Inc.",True,software/data,low,Unknown; police database software payment suggests public-safety software vendor.,zeteky.com,1,35250,"Zeteky, Inc."
+FusionRMS LLC,True,software/data,medium,Records management software for sheriffs; small private vendor.,fusionrms.tab.com,1,34437,FusionRMS LLC
+Justice AV Solutions,True,devices + software,low,"Courtroom AV tech vendor built for courts; likely small private, integrator risk",javs.com,1,34327,JUSTICE AV SOLUTIONS
+Hexordia LLC,True,forensic/lab services,medium,Digital forensics training and expert services for police/prosecutors; small private firm,hexordia.com,1,33609,HEXORDIA LLC
+Savant Learning Systems (Virtual Academy),True,training/policy content,low,Online training for 911/public safety; small private.,virtualacademy.com,1,33000,"SAVANT LEARNING SYSTEM, INC. DBA VIRTUAL ACADEMY"
+Essential Education,True,software/data,medium,"Private adult-ed software sold to corrections agencies; mid-size, direct government seller.",essentialed.com,1,33000,ESSENTIAL EDUCATION
 PsychLogic,True,professional services,low,"Pre-employment psych exams for public safety; small specialized services, uncertain size",,1,30900,PSYCHLOGIC
 Susteen Inc,True,software/data,high,"Private mobile forensics software/hardware (Burner, DataPilot) sold to law enforcement.",susteen.com,1,29598,Susteen Inc
-Nextalk,True,software/data,medium,Private TTY/telecom software for 911 and police,,1,28449,NEXTALK INC.
+Nextalk,True,software/data,medium,Private TTY/telecom software for 911 and police,nextalk.com,1,28449,NEXTALK INC.
 Roco Rescue,True,training/policy content,low,Private rescue training and gear provider selling to fire/USAR; marginal fit.,rocorescue.com,1,28205,ROCO RESCUE INC
-Skydio,True,devices + software,medium,VC-backed drone maker selling to public safety agencies,,1,28081,Skydi...#6884
+Skydio,True,devices + software,medium,VC-backed drone maker selling to public safety agencies,skydio.com,1,28081,Skydi...#6884
 DragonEye Technology,True,devices + software,medium,Private LiDAR speed enforcement devices sold to police,dragoneyetech.com,1,27758,"DRAGONEYE TECHNOLOGY, LLC"
-Marinus Analytics,True,software/data,high,"Traffic Jam AI software for police, venture-backed",,1,27079,MarinusAnalyticsLLC
+Marinus Analytics,True,software/data,high,"Traffic Jam AI software for police, venture-backed",marinusanalytics.com,1,27079,MarinusAnalyticsLLC
 Permitium LLC,True,software/data,low,Permit/alarm management software for police; small private SaaS,permitium.com,1,26000,PERMITIUM LLC
-First Arriving,True,software/data,low,"Fire/EMS-focused tech/media vendor, likely small private",,1,25066,FIRST ARRIVING LLC
-Desert Tox,True,forensic/lab services,low,"Forensic toxicology lab for police; likely small, recurring per-case billing",,1,23842,DesertToxLLC
-Fog Data Science,True,software/data,medium,Private data/software sold to law enforcement,,1,22743,FogDataScienceLLC
+First Arriving,True,software/data,low,"Fire/EMS-focused tech/media vendor, likely small private",firstarriving.com,1,25066,FIRST ARRIVING LLC
+Desert Tox,True,forensic/lab services,low,"Forensic toxicology lab for police; likely small, recurring per-case billing",deserttox.com,1,23842,DesertToxLLC
+Fog Data Science,True,software/data,medium,Private data/software sold to law enforcement,fogdatascience.com,1,22743,FogDataScienceLLC
 NPN 360,True,devices + software,low,"911 technology/services provider; private, mid-size, 911 payments",npn360.com,1,22724,NPN 360 INC
 MPH Industries,True,devices + software,low,Private police radar maker selling directly to agencies; size uncertain.,mphindustries.com,1,21077,MPH INDUSTRIES INC
 Viscosity North America,True,forensic/lab services,low,"Forensic/visual evidence services paid by Prosecutor; small private firm, limited evidence",,1,20135,VISCOSITY NORTH AMERICA INC
 DaPage,True,software/data,low,"E911 hosting/monitoring services sold to police; small, borderline.",,1,19950,"DAPAGE, LLC."
 SCL Forensics,True,forensic/lab services,medium,"Private forensic lab selling to prosecutors, agencies",sclforensics.com,1,19591,SCL FORENSICS
-Intelligent Video Solutions,True,software/data,low,Video software/IT services to police; small private,,1,19206,Intelligent Video Solutions
-ESChat,True,software/data,low,"Push-to-talk software for first responders; private, small but plausible; low spend.",,1,17875,ESChat
-"HigherGround, Inc.",True,software/data,medium,Private forensic audio/video software for law enforcement; small scaling firm,,1,17400,"HIGHERGROUND, INC."
-Metrasens Inc,True,devices + software,medium,Private ferromagnetic/metal detection devices sold to corrections; scaling mid-size,,1,17340,METRASENS INC
-Integrity Surveillance Group (TactiTrack GPS),True,devices + software,low,GPS tracking devices/software sold to police and sheriff; small private firm,,1,16285,INTEGRITY SURVEILLANCE GROUP OR TACTITRACK GPS
+Intelligent Video Solutions,True,software/data,low,Video software/IT services to police; small private,ivsvideo.com,1,19206,Intelligent Video Solutions
+ESChat,True,software/data,low,"Push-to-talk software for first responders; private, small but plausible; low spend.",eschat.com,1,17875,ESChat
+"HigherGround, Inc.",True,software/data,medium,Private forensic audio/video software for law enforcement; small scaling firm,highergroundinc.com,1,17400,"HIGHERGROUND, INC."
+Metrasens Inc,True,devices + software,medium,Private ferromagnetic/metal detection devices sold to corrections; scaling mid-size,metrasens.com,1,17340,METRASENS INC
+Integrity Surveillance Group (TactiTrack GPS),True,devices + software,low,GPS tracking devices/software sold to police and sheriff; small private firm,tactitrack.com,1,16285,INTEGRITY SURVEILLANCE GROUP OR TACTITRACK GPS
 Belkasoft,True,software/data,medium,Private digital forensics software sold to police.,belkasoft.com,1,15824,Belkasoft LLC
-Elantech (DataTech911),True,software/data,low,"911 data/ALI services vendor; small private, public safety focus.",,1,15752,"ELANTECH, INC. DBA DATATECH911"
-Shelterly,True,software/data,medium,Small private emergency shelter/animal evacuation software sold to agencies,,1,15000,SHELTERLY
+Elantech (DataTech911),True,software/data,low,"911 data/ALI services vendor; small private, public safety focus.",datatech911.com,1,15752,"ELANTECH, INC. DBA DATATECH911"
+Shelterly,True,software/data,medium,Small private emergency shelter/animal evacuation software sold to agencies,shelterly.org,1,15000,SHELTERLY
 Spyder Forensics,True,training/policy content,medium,Private digital forensics training sold to public safety agencies; small founder-led firm,spyderforensics.com,1,14975,SPYDER FORENSICS  LLC
 Axnes Inc,True,devices + software,low,Private tactical communications maker for law enforcement; size uncertain,axnes.com,1,14071,Axnes Inc
-TechRadium Inc,True,software/data,low,Private emergency mass-notification software vendor; small payments to Courts.,,1,13966,TECHRADIUM INC
-Proengin,True,devices + software,low,Private chemical detection devices for fire/HAZMAT; small,,1,13747,PROENGIN INC
-Passware Inc,True,software/data,medium,Password recovery forensic software sold to law enforcement; small private firm,,1,11985,Passware Inc
-Bounce Imaging,True,devices + software,medium,"VC-backed throwable tactical cameras with software, sold to law enforcement/fire.",,1,11955,BOUNCE IMAGING INC
+TechRadium Inc,True,software/data,low,Private emergency mass-notification software vendor; small payments to Courts.,techradium.com,1,13966,TECHRADIUM INC
+Proengin,True,devices + software,low,Private chemical detection devices for fire/HAZMAT; small,proengin.com,1,13747,PROENGIN INC
+Passware Inc,True,software/data,medium,Password recovery forensic software sold to law enforcement; small private firm,passware.com,1,11985,Passware Inc
+Bounce Imaging,True,devices + software,medium,"VC-backed throwable tactical cameras with software, sold to law enforcement/fire.",bounceimaging.com,1,11955,BOUNCE IMAGING INC
 M-VAC Systems,True,devices + software,low,Founder-led forensic DNA evidence collection devices sold to crime labs; likely small headcount.,m-vac.com,1,10981,M-VAC SYSTEMS INC
 BSD Robotics Pty Ltd,True,devices + software,low,"Forensic lab automation devices; Australian, size uncertain, small payments",,1,10854,BSD ROBOTICS PTY LTD
-National Curriculum & Training Institute,True,training/policy content,low,"Private curriculum seller to corrections/probation agencies; fits Subject-like profile, size uncertain.",,1,10261,NATIONAL CURRICULUM & TRAINING INSTITUTE INC
-Finite Matters Ltd,True,software/data,low,Small software firm; court software maintenance; limited evidence,,1,10200,FINITE MATTERS LTD
+National Curriculum & Training Institute,True,training/policy content,low,"Private curriculum seller to corrections/probation agencies; fits Subject-like profile, size uncertain.",ncti.org,1,10261,NATIONAL CURRICULUM & TRAINING INSTITUTE INC
+Finite Matters Ltd,True,software/data,low,Small software firm; court software maintenance; limited evidence,finitematters.com,1,10200,FINITE MATTERS LTD
 Galls,False,commodity/supplies,high,Uniform supplier.,,18,43890507,"GALLS | GALLS INC | GALLS INC., INLAND UNIFORM | GALLS LLC | GALLS PARENT HOLDINGS LLC | GALLS PARENT HOLDINGS, LLC | GALLS QUARTERMASTER | GALLS, INC | GALLS, INC. | GALLS, LLC | Galls LLC | Galls...#4659 | GallsLLC"
 Uline,False,commodity/supplies,high,Large supplies distributor.,,18,3454439,"ULINE | ULINE   SHIP SUPPLIES | ULINE  *SHIP SUPPLIES | ULINE - SHIPPING SUPPLY | ULINE INC | ULINE SHIPPING SUPPLY | ULINE, INC | ULINE, INC. | ULINESHIPSUPPLIES | Uline | Uline, Inc."
 Bound Tree Medical,False,reseller/distributor,high,EMS supply distributor (Sarnova).,,16,12604500,"BOUND TREE MEDICAL | BOUND TREE MEDICAL LLC | BOUND TREE MEDICAL, LLC | Bound Tree Medical LLC | Bound...#1548 | BoundTreeMedicalLLC"
@@ -2569,7 +2565,6 @@ Cabin John Park Volunteer Fire Department,False,government/nonprofit,high,Volunt
 ARTS TECH,False,government/nonprofit,medium,Community arts/tech nonprofit,,1,754262,ARTS TECH
 Catholic Bishop of Chicago St Sabina Church,False,government/nonprofit,high,Church,,1,753955,CATHOLIC BISHOP OF CHICAGO ST SABINA CHURCH
 American Moving Parts,False,commodity/supplies,high,Auto parts,,1,751074,AMERICAN MOVING PARTS LLC
-Lenco Armored Vehicles,False,commodity/supplies,medium,Armored vehicle manufacturer; vehicles excluded,,1,750828,Lenco Armored Vehicles
 Crystal B Ashley,False,individual,medium,Individual payee.,,1,750820,CRYSTAL B ASHLEY
 42 Cares LLC,False,other,low,"Wellness program vendor, not public-safety tech",,1,750000,42 CARES LLC
 She Leads Justice,False,government/nonprofit,high,Nonprofit grant recipient,,1,750000,SHE LEADS JUSTICE INC
@@ -3171,7 +3166,6 @@ Red River Technology,False,reseller/distributor,high,IT reseller/integrator,,1,3
 Pullman & Comley LLC,False,professional services,high,"Law firm, general",,1,360871,PULLMAN & COMLEY LLC
 Airport Research and Development,False,other,low,"Unclear, likely nonprofit/pass-through",,1,360000,AIRPORT RESEARCH AND DEVELOPMENT
 Barbara M Brand,False,individual,high,Individual,,1,360000,Barbara M Brand
-Flock Safety,False,software/data,high,Flock Safety explicitly excluded,,1,359798,Flock...#6913
 American Tower Corporation,False,large incumbent,high,Public tower REIT,,1,359766,American Tower Corporation
 General Automotive Servicenter,False,commodity/supplies,high,Vehicle repair shop.,,1,359675,GENERAL AUTOMOTIVE SERVICENTER
 Parts Authority Metro,False,commodity/supplies,high,Auto parts.,,1,358650,"PARTS AUTHORITY METRO, LLC"
