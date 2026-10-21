@@ -49,7 +49,7 @@ These 14 ledgers show which governments and departments pay a vendor, and when.
 | `mesquite` | Mesquite, TX | |
 | `corona` | Corona, CA | |
 | `cook_county` | Cook County, IL | |
-| `connecticut` | State of Connecticut | The agency name is in `program`. The `invoice_date` column equals the payment date in every tested row, so it isn't mapped. |
+| `connecticut` | State of Connecticut | The agency name is in `program`. The `invoice_date` column is an accounting date, so it isn't mapped. |
 | `delaware` | State of Delaware | |
 
 ## Invoice date verification

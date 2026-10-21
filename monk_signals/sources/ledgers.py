@@ -1,9 +1,9 @@
 """Government payment ledgers (Socrata SODA API) -> canonical payment facts.
 
-Three query shapes, none of which needs to know vendor names in advance:
+Three query shapes:
   departments()    the paying departments of a government (grouped, small)
   payee_rollup()   payee x department x month for the departments that matter
-  invoice_events() invoice-level rows for exact payee spellings found by the rollup
+  invoice_events() invoice-level rows for exact payee spellings
 """
 
 import datetime as dt
@@ -177,7 +177,7 @@ def invoice_events(ledger, raw_to_company, since, unit_class):
 
 def verify_invoice_dates(ledger, n=5000):
     """A mapped invoice_date must behave like one: paid - invoice_date over the latest n
-    payments is spread out and ~never negative. (CT's 'invoice_date' fails: 100% zero.)"""
+    payments is spread out and almost never negative."""
     if not ledger.invoice_date:
         return None
     rows = soql(ledger, ledger.datasets[0], {"$select": f"{ledger.invoice_date} as i, {ledger.paid} as p",

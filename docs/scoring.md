@@ -13,7 +13,7 @@ queue and any past queue.
 | Payment delay | 18 months | Days-to-pay medians |
 | Prior history | 24 months | Confirming a payer is new |
 
-Payments, approvals, renewals, and awards all count as payer events.
+Payments and awards both count as payer events.
 
 ## Signals
 
@@ -55,7 +55,7 @@ signal. HubSpot uses `source_signal` to group outcomes.
 
 ## Headline
 
-The headline is built from up to three clauses, in this order:
+The headline uses the first three of these clauses that apply, in this order:
 
 1. Up to two new payers, with government, department, date, and amount.
 2. One new department, with government, department, and date.
@@ -88,5 +88,4 @@ paid.
 
 `backtest --months N` scores the queue as of each of the last N months. For each account that
 newly reaches `act_now`, it shows how many more governments started paying in the following 90
-days. A replay assumes each record was available on its event date. In practice, ledgers post
-payments some days or weeks later.
+days.

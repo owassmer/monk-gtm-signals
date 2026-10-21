@@ -45,7 +45,8 @@ the agent returns:
 | `sells_direct` | `direct`, `mixed`, `reseller`, or `unknown` |
 | `is_target`, `reason` | Final decision and the evidence for it |
 
-Companies the agent marks as non-targets are excluded with its reason. 87 targets remain.
+Companies the agent marks as non-targets are excluded with its reason. After verification and the
+exclude list, 87 targets remain.
 
 ## collect
 

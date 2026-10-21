@@ -7,11 +7,11 @@ import json
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor
 
+import yaml
+
 from . import agent, db, names
 from .sources import ledgers as L
 from .sources import public_records as P
-import yaml
-
 from .util import CONFIG, OUT, config, now_iso, today
 
 LOOKBACK_DAYS = 3 * 365          # history needed to call a payer "new" 24 months back, plus backtests

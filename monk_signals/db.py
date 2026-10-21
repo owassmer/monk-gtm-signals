@@ -14,8 +14,8 @@ DB_PATH = ROOT / "signals.db"
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS events (
   event_id TEXT PRIMARY KEY,
-  vendor TEXT NOT NULL,          -- canonical company name from vendors.csv
-  kind TEXT NOT NULL,            -- payment | award | approval | renewal
+  vendor TEXT NOT NULL,          -- canonical company name
+  kind TEXT NOT NULL,            -- payment | award
   source TEXT NOT NULL,          -- ledger:<id> | usaspending
   jurisdiction TEXT,             -- the paying government
   unit TEXT,                     -- department as published
@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS events (
   invoice_date_meaning TEXT,     -- issued | received
   due_date TEXT,
   amount REAL,
-  ref TEXT,                      -- invoice / award / posting id
+  ref TEXT,                      -- invoice or award id
   raw_name TEXT,                 -- vendor name as the source wrote it
   title TEXT,
   url TEXT,

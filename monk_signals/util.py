@@ -14,7 +14,7 @@ CONFIG = ROOT / "config"
 OUT = ROOT / "out"
 
 _local = threading.local()
-UA = "monk-gtm-signals/2.0 (+https://github.com/owassmer/monk-gtm-signals)"
+UA = "monk-gtm-signals (+https://github.com/owassmer/monk-gtm-signals)"
 
 
 def load_env():

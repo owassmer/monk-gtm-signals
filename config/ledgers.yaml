@@ -5,7 +5,7 @@
 #   vendor        payee name as the government records it
 #   paid          date the payment left the government
 #   amount        dollars
-#   unit          paying department (normalized later by names.canonical_unit)
+#   unit          paying department
 #   invoice_date  only where the column really is an invoice date (see below)
 #   invoice_date_meaning  issued | received   (whose clock starts the lag)
 #   due_date, invoice_id, description   where they exist
@@ -13,7 +13,7 @@
 # invoice_date is only mapped where an empirical test passed: paid - invoice_date
 # across the 5,000 most recent payments has a realistic spread and ~0% negatives.
 # `python -m monk_signals ledgers --verify` re-runs that test against live data.
-# Columns that are *named* invoice date but failed it are documented and left unmapped.
+# Columns named like an invoice date that fail the test are left unmapped, with a note.
 
 ledgers:
   - id: los_angeles
@@ -240,7 +240,7 @@ ledgers:
     unit: program                       # agency name lives in `program`; `department` holds the SID description
     invoice_id: invoice_id
     description: expense_category
-    notes: invoice_date is the accounting date (equals payment_date in 100% of tested rows), so unmapped
+    notes: invoice_date is the accounting date, so it is not mapped
 
   - id: delaware
     payer: State of Delaware

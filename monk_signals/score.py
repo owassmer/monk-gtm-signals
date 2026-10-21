@@ -4,7 +4,7 @@ Everything is computed `as_of` a date using only events dated on or before it, s
 function produces today's queue and any historical queue (backtest).
 
 Reason codes (the unit the feedback loop learns on; becomes HubSpot `source_signal`):
-  NEW_PAYER     a government paid or approved the vendor for the first time in 90 days,
+  NEW_PAYER     a government paid or awarded the vendor for the first time in 90 days,
                 with 24 months of visible history showing no prior relationship
   EXPANDING     a new department inside an existing government paying customer, same test
   SLOW_PAYER    a department takes a median 45+ days from invoice to payment (3+ invoices)
@@ -19,7 +19,7 @@ from collections import defaultdict
 
 from .util import money, to_date
 
-PAYER_KINDS = {"payment", "approval", "renewal", "award"}
+PAYER_KINDS = {"payment", "award"}
 NEW_WINDOW = 90
 QUIET = 730
 SLOW_DAYS = 45
@@ -90,7 +90,7 @@ def score_vendor(evs, as_of, coverage):
     # Plain-English evidence, newest-first, each clause backed by a URL.
     clauses, urls = [], []
     for e in sorted(new_j, key=lambda e: e["event_date"], reverse=True)[:2]:
-        verb = "first paid" if e["kind"] == "payment" else ("first awarded" if e["kind"] == "award" else "approved a contract with")
+        verb = "first paid" if e["kind"] == "payment" else "first awarded"
         who = f"{e['jurisdiction']} ({e['unit']})" if e["unit"] else e["jurisdiction"]
         clauses.append(f"New payer: {who} {verb} them on {_fmt(to_date(e['event_date']))}"
                        + (f" ({money(e['amount'])})" if e["amount"] else ""))
